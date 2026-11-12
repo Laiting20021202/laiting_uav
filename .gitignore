@@ -1,0 +1,45 @@
+.venv/
+__pycache__/
+.pytest_cache/
+config/users.json
+config/cloudflared.yml
+data/*
+models/**/*.pt
+models/**/*.engine
+models/**/*.onnx
+!data/README.md
+
+# Local recordings, exports, and archives
+/saving data/
+/saving data.zip
+/test_video/
+/飛行畫面/
+*.mp4
+*.MP4
+*.avi
+*.mov
+*.mkv
+*.sqlite3
+*.sqlite3-*
+*.db
+*.log
+
+# Generated model training images and previews; keep metadata and scripts
+models/**/*.jpg
+models/**/*.jpeg
+models/**/*.png
+
+# Credentials and local environment overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python / editor caches
+*.py[cod]
+.mypy_cache/
+.ruff_cache/
+
+# Kernel dependency files
+*.o.d
