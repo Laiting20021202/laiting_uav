@@ -1,0 +1,39 @@
+{
+  "source": "/home/david/Desktop/laiting/無人機決賽/模擬訓練/testing/重新測試.webm",
+  "results": {
+    "president_cup_v4": {
+      "model": "models/president_cup_v4_refined/best.pt",
+      "video": "models/president_cup_v4_refined/video_validation/president_cup_v4.mp4",
+      "classes": [
+        "civilian_vehicle",
+        "light_tactical_vehicle",
+        "medium_tactical_vehicle",
+        "clouded_leopard_armored_vehicle",
+        "amphibious_assault_vehicle"
+      ],
+      "confidence_threshold": 0.45,
+      "input_size": 1536,
+      "frames": 616,
+      "frames_with_detection": 304,
+      "box_counts_by_class": {
+        "civilian_vehicle": 503
+      },
+      "frames_with_raw_detection": 341,
+      "raw_box_counts_by_class": {
+        "civilian_vehicle": 613
+      },
+      "confirmed_track_count": 22,
+      "temporal_filter": {
+        "min_hits": 3,
+        "hold_seconds": 0.35,
+        "iou_threshold": 0.25,
+        "smoothing": 0.68,
+        "continuation_confidence": 0.2,
+        "match_center_ratio": 1.25
+      },
+      "first_timestamp_ms": 25,
+      "last_timestamp_ms": 78417,
+      "processing_seconds": 29.4
+    }
+  }
+}

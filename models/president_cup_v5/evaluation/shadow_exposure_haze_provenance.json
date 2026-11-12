@@ -1,0 +1,488 @@
+{
+  "heldout_sources": 120,
+  "source_split": "test",
+  "geometry_preserved": true,
+  "training_use": false,
+  "samples": [
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_011.png",
+      "seed": 10063835097809459325
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_012.png",
+      "seed": 2438969876764034877
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_013.png",
+      "seed": 10030264762829288238
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_014.png",
+      "seed": 6348391683976053466
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_015.png",
+      "seed": 17828197292863737970
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_036.png",
+      "seed": 17400930714515504157
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_037.png",
+      "seed": 6531157481148493479
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_038.png",
+      "seed": 14383674474181369627
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_039.png",
+      "seed": 11347734046786878236
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_040.png",
+      "seed": 13443545481818429991
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_041.png",
+      "seed": 6857633597803603564
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_042.png",
+      "seed": 15650477909898651687
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_043.png",
+      "seed": 75579086125183936
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_044.png",
+      "seed": 14985057998921977453
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_045.png",
+      "seed": 18246941379996686719
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_056.png",
+      "seed": 5891625098878723975
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_057.png",
+      "seed": 6310095314882222279
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_058.png",
+      "seed": 1731471148916131594
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_059.png",
+      "seed": 16218909701670690360
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_060.png",
+      "seed": 3018369826765519716
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_061.png",
+      "seed": 7840341992759810927
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_062.png",
+      "seed": 12463116230597841581
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_063.png",
+      "seed": 18079426701411450938
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_064.png",
+      "seed": 7628179303571479970
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_065.png",
+      "seed": 6613634543343724257
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_071.png",
+      "seed": 4178013507026255689
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_072.png",
+      "seed": 6569808279562019524
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_073.png",
+      "seed": 13166896489018806558
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_074.png",
+      "seed": 7099800103415902550
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/reference_synthetic_075.png",
+      "seed": 12655171064292277192
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300000_f00000.jpg",
+      "seed": 13260876837204908494
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300000_f00001.jpg",
+      "seed": 11042638084912252884
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300000_f00002.jpg",
+      "seed": 17590161038294630523
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300000_f00003.jpg",
+      "seed": 7554686946684007926
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300000_f00004.jpg",
+      "seed": 3251702216272409381
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300000_f00005.jpg",
+      "seed": 17963368421239990466
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300000_f00006.jpg",
+      "seed": 2186424502716768052
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300000_f00007.jpg",
+      "seed": 4927614893083939945
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300000_f00008.jpg",
+      "seed": 6867828929710724949
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300000_f00009.jpg",
+      "seed": 18112439469124824562
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300001_f00000.jpg",
+      "seed": 6606310381908824641
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300001_f00001.jpg",
+      "seed": 9627526286868546756
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300001_f00002.jpg",
+      "seed": 12908110527920034944
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300001_f00003.jpg",
+      "seed": 5834210678913658311
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300001_f00004.jpg",
+      "seed": 9799549685625451350
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300001_f00005.jpg",
+      "seed": 18292096370090576428
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300001_f00006.jpg",
+      "seed": 3131411103324239174
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300001_f00007.jpg",
+      "seed": 4159894485030879428
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300001_f00008.jpg",
+      "seed": 17100741337180091540
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300001_f00009.jpg",
+      "seed": 8005579062534666569
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300002_f00000.jpg",
+      "seed": 3198037385857390463
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300002_f00001.jpg",
+      "seed": 129245504979747726
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300002_f00002.jpg",
+      "seed": 12431375866104351611
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300002_f00003.jpg",
+      "seed": 15150250294914400978
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300002_f00004.jpg",
+      "seed": 17376940960928075929
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300002_f00005.jpg",
+      "seed": 17294103405225419224
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300002_f00006.jpg",
+      "seed": 12198928542430907543
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300002_f00007.jpg",
+      "seed": 15725115864818806991
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300002_f00008.jpg",
+      "seed": 7497212824828877243
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300002_f00009.jpg",
+      "seed": 18043099001493352062
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300003_f00000.jpg",
+      "seed": 12039602097582527723
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300003_f00001.jpg",
+      "seed": 11083716920670766630
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300003_f00002.jpg",
+      "seed": 2472359397277056252
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300003_f00003.jpg",
+      "seed": 921972903579850339
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300003_f00004.jpg",
+      "seed": 1959598654525337694
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300003_f00005.jpg",
+      "seed": 284445707153387061
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300003_f00006.jpg",
+      "seed": 16419258518593250401
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300003_f00007.jpg",
+      "seed": 7736218996847732358
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300003_f00008.jpg",
+      "seed": 10083031631092363225
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300003_f00009.jpg",
+      "seed": 6058334877920956508
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300004_f00000.jpg",
+      "seed": 11409407641154413073
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300004_f00001.jpg",
+      "seed": 2268650874575255627
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300004_f00002.jpg",
+      "seed": 9015473371959512863
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300004_f00003.jpg",
+      "seed": 16656420626010891527
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300004_f00004.jpg",
+      "seed": 5956792364600839399
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300004_f00005.jpg",
+      "seed": 18078229288119233388
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300004_f00006.jpg",
+      "seed": 2320374806260299474
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300004_f00007.jpg",
+      "seed": 16225142068883906602
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300004_f00008.jpg",
+      "seed": 8229428752793257382
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300004_f00009.jpg",
+      "seed": 10436147661892368596
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300005_f00000.jpg",
+      "seed": 11246178296642292590
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300005_f00001.jpg",
+      "seed": 12456900560601113848
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300005_f00002.jpg",
+      "seed": 16230696759812106721
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300005_f00003.jpg",
+      "seed": 8346213787009844814
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300005_f00004.jpg",
+      "seed": 5065245144972245773
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300005_f00005.jpg",
+      "seed": 556300270872014632
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300005_f00006.jpg",
+      "seed": 8189704420846424287
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300005_f00007.jpg",
+      "seed": 9358047563332822192
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300005_f00008.jpg",
+      "seed": 17362750083786451824
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300005_f00009.jpg",
+      "seed": 10578760163848170316
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300006_f00000.jpg",
+      "seed": 12971095105348124488
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300006_f00001.jpg",
+      "seed": 6932552813963455589
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300006_f00002.jpg",
+      "seed": 18270063327722957814
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300006_f00003.jpg",
+      "seed": 7560357569585982404
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300006_f00004.jpg",
+      "seed": 310484510547401583
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300006_f00005.jpg",
+      "seed": 785476282825811910
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300006_f00006.jpg",
+      "seed": 7180162771761751489
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300006_f00007.jpg",
+      "seed": 11699087120372792408
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300006_f00008.jpg",
+      "seed": 10995441278153716007
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300006_f00009.jpg",
+      "seed": 12339845748831612866
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300007_f00000.jpg",
+      "seed": 18344149531002992647
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300007_f00001.jpg",
+      "seed": 9687200954273633132
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300007_f00002.jpg",
+      "seed": 13172385463219662762
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300007_f00003.jpg",
+      "seed": 249912666222822741
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300007_f00004.jpg",
+      "seed": 9020908502324558391
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300007_f00005.jpg",
+      "seed": 8130992306364343511
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300007_f00006.jpg",
+      "seed": 1207366392133264875
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300007_f00007.jpg",
+      "seed": 9545590034825527610
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300007_f00008.jpg",
+      "seed": 1286733067887675617
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300007_f00009.jpg",
+      "seed": 13149677467289081045
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300008_f00000.jpg",
+      "seed": 10991634703534200564
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300008_f00001.jpg",
+      "seed": 18041522857280116645
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300008_f00002.jpg",
+      "seed": 11025944463750034673
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300008_f00003.jpg",
+      "seed": 18176917720387473050
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300008_f00004.jpg",
+      "seed": 18383163065553897878
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300008_f00005.jpg",
+      "seed": 12060343125013611614
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300008_f00006.jpg",
+      "seed": 17691334120858859759
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300008_f00007.jpg",
+      "seed": 1181304890694445868
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300008_f00008.jpg",
+      "seed": 11260160165847618333
+    },
+    {
+      "source": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/datasets/president_cup_v5/images/test/simulator_realtime_s300008_f00009.jpg",
+      "seed": 3595546171159582005
+    }
+  ]
+}

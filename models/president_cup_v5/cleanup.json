@@ -1,0 +1,49 @@
+[
+  {
+    "path": "/home/david/.local/share/Trash/expunged",
+    "approximate_bytes_before": 520111699,
+    "fully_removed": false
+  },
+  {
+    "path": "/home/david/.cache/pip",
+    "approximate_bytes_before": 63987854,
+    "fully_removed": true
+  },
+  {
+    "path": "/home/david/.cache/huggingface/xet",
+    "approximate_bytes_before": 99180448,
+    "fully_removed": true
+  },
+  {
+    "path": "/home/david/.cache/ov/shaders",
+    "approximate_bytes_before": 317118939,
+    "fully_removed": true
+  },
+  {
+    "path": "/home/david/.cache/ov/texturecache",
+    "approximate_bytes_before": 402654291,
+    "fully_removed": true
+  },
+  {
+    "path": "/home/david/.cache/ov/DerivedDataCache",
+    "approximate_bytes_before": 28116655,
+    "fully_removed": true
+  },
+  {
+    "path": "/home/david/.npm/_cacache",
+    "approximate_bytes_before": 73515134,
+    "fully_removed": true
+  },
+  {
+    "path": "/home/david/.cache/google-chrome/Profile 7/Cache",
+    "fully_removed": true
+  },
+  {
+    "path": "/home/david/.cache/google-chrome/Profile 7/Code Cache",
+    "fully_removed": true
+  },
+  {
+    "path": "/home/david/.cache/thumbnails",
+    "fully_removed": true
+  }
+]

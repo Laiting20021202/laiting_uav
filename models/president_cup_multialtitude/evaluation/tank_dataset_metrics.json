@@ -1,0 +1,21 @@
+{
+  "metrics/precision(B)": 1.0,
+  "metrics/recall(B)": 0.9995410270854168,
+  "metrics/mAP50(B)": 0.995,
+  "metrics/mAP50-95(B)": 0.9271313867271791,
+  "fitness": 0.9271313867271791,
+  "map50": 0.995,
+  "map50_95": 0.9271313867271791,
+  "precision": 1.0,
+  "recall": 0.9995410270854168,
+  "tank_precision": 1.0,
+  "tank_recall": 0.9995410270854168,
+  "tank_map50": 0.995,
+  "tank_map50_95": 0.9271313867271791,
+  "model": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/models/president_cup_multialtitude/best.pt",
+  "dataset": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/tank_dataset/images/val",
+  "images": 50,
+  "instances": 209,
+  "source_labels_remapped": "tank class 0 -> model class 1 in non-destructive evaluation view",
+  "save_dir": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/models/president_cup_multialtitude/evaluation/tank_dataset_plots"
+}

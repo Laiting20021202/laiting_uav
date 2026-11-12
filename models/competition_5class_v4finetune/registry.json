@@ -1,0 +1,16 @@
+{
+  "competition-5class-v4finetune": {
+    "file": "weights/best.pt",
+    "imgsz": 1152,
+    "device": "auto",
+    "half": true,
+    "classes": [
+      "civilian_vehicle",
+      "light_tactical_vehicle",
+      "medium_tactical_vehicle",
+      "clouded_leopard_armored_vehicle",
+      "amphibious_assault_vehicle"
+    ],
+    "description": "競賽五類 v4 微調；五類車輛，1152 輸入尺寸"
+  }
+}

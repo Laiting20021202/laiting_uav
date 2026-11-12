@@ -1,0 +1,22 @@
+{
+  "metrics/precision(B)": 0.9800300832428022,
+  "metrics/recall(B)": 0.8828953927223527,
+  "metrics/mAP50(B)": 0.9481520145813083,
+  "metrics/mAP50-95(B)": 0.6510980593987525,
+  "fitness": 0.6510980593987525,
+  "map50": 0.9481520145813083,
+  "map50_95": 0.6510980593987525,
+  "precision": 0.9800300832428022,
+  "recall": 0.8828953927223527,
+  "vehicle_precision": 0.9779448806874982,
+  "vehicle_recall": 0.8410596026490066,
+  "vehicle_map50": 0.9400320888570222,
+  "vehicle_map50_95": 0.6713761002541351,
+  "tank_precision": 0.9821152857981061,
+  "tank_recall": 0.9247311827956989,
+  "tank_map50": 0.9562719403055943,
+  "tank_map50_95": 0.6308200185433699,
+  "model": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/models/president_cup_multialtitude/best.pt",
+  "split": "test",
+  "save_dir": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/models/president_cup_multialtitude/evaluation/plots"
+}

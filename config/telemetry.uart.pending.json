@@ -1,0 +1,7 @@
+{
+  "connection": "/dev/ttyTHS1",
+  "baud": 115200,
+  "usb_serial": null,
+  "usb_vid": null,
+  "usb_pid": null
+}

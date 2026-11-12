@@ -1,0 +1,9 @@
+data/
+.venv/
+models/
+test_video/
+飛行畫面/
+**/__pycache__/
+.pytest_cache/
+config/users.json
+config/cloudflared.yml

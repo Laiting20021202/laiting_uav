@@ -1,0 +1,109 @@
+{
+  "source": "/home/david/Desktop/laiting/無人機決賽/模擬訓練/testing/實驗室走動.MOV",
+  "settings": {
+    "imgsz": 1536,
+    "conf": 0.25,
+    "iou": 0.6,
+    "max_det": 200,
+    "device": "cuda:0",
+    "tracking": false,
+    "audio": "not included"
+  },
+  "models": {
+    "president_cup_v5": {
+      "path": "/home/david/Desktop/laiting/無人機決賽/模擬訓練/models/president_cup_v5/best.pt",
+      "classes": {
+        "0": "civilian_vehicle",
+        "1": "light_tactical_vehicle",
+        "2": "medium_tactical_vehicle",
+        "3": "clouded_leopard_armored_vehicle",
+        "4": "amphibious_assault_vehicle"
+      },
+      "parameters": 20056863,
+      "weight_bytes": 40764204,
+      "checkpoint_validation_metrics": {
+        "metrics/precision(B)": 0.97551,
+        "metrics/recall(B)": 0.85239,
+        "metrics/mAP50(B)": 0.92503,
+        "metrics/mAP50-95(B)": 0.71504,
+        "val/box_loss": 0.96316,
+        "val/cls_loss": 0.70884,
+        "val/dfl_loss": 1.01768,
+        "fitness": 0.71504
+      },
+      "detections": {
+        "civilian_vehicle": 23,
+        "amphibious_assault_vehicle": 181,
+        "light_tactical_vehicle": 394,
+        "clouded_leopard_armored_vehicle": 215,
+        "medium_tactical_vehicle": 170
+      },
+      "frames_by_class": {
+        "civilian_vehicle": 22,
+        "amphibious_assault_vehicle": 178,
+        "light_tactical_vehicle": 226,
+        "clouded_leopard_armored_vehicle": 208,
+        "medium_tactical_vehicle": 166
+      },
+      "frames_with_detection": 295,
+      "inference_ms": 21501.676161997224,
+      "mean_confidence_by_class": {
+        "civilian_vehicle": 0.32406747470731323,
+        "amphibious_assault_vehicle": 0.7557317253963723,
+        "light_tactical_vehicle": 0.7203418358328378,
+        "clouded_leopard_armored_vehicle": 0.6920861199844716,
+        "medium_tactical_vehicle": 0.7192355611745049
+      },
+      "average_inference_ms": 34.457814362175036
+    },
+    "competition_5class_v1-3": {
+      "path": "/home/david/Desktop/laiting/無人機決賽/模擬訓練/models/competition_5class_v1-3/weights/best.pt",
+      "classes": {
+        "0": "civilian_vehicle",
+        "1": "light_tactical_vehicle",
+        "2": "medium_tactical_vehicle",
+        "3": "clouded_leopard_armored_vehicle",
+        "4": "amphibious_assault_vehicle"
+      },
+      "parameters": 20056863,
+      "weight_bytes": 40695212,
+      "checkpoint_validation_metrics": {
+        "metrics/precision(B)": 0.88606,
+        "metrics/recall(B)": 0.75039,
+        "metrics/mAP50(B)": 0.8884,
+        "metrics/mAP50-95(B)": 0.75425,
+        "val/box_loss": 1.07408,
+        "val/cls_loss": 0.92654,
+        "val/dfl_loss": 1.25673,
+        "fitness": 0.75425
+      },
+      "detections": {
+        "medium_tactical_vehicle": 1319,
+        "amphibious_assault_vehicle": 219,
+        "light_tactical_vehicle": 698,
+        "clouded_leopard_armored_vehicle": 145,
+        "civilian_vehicle": 91
+      },
+      "frames_by_class": {
+        "medium_tactical_vehicle": 539,
+        "amphibious_assault_vehicle": 201,
+        "light_tactical_vehicle": 321,
+        "clouded_leopard_armored_vehicle": 145,
+        "civilian_vehicle": 85
+      },
+      "frames_with_detection": 583,
+      "inference_ms": 21469.23411100301,
+      "mean_confidence_by_class": {
+        "medium_tactical_vehicle": 0.5755796630876004,
+        "amphibious_assault_vehicle": 0.7710107156675156,
+        "light_tactical_vehicle": 0.6504555190446384,
+        "clouded_leopard_armored_vehicle": 0.6431267647907651,
+        "civilian_vehicle": 0.42630970085060205
+      },
+      "average_inference_ms": 34.40582389583816
+    }
+  },
+  "frames": 624,
+  "duration_seconds": 20.808333333333334,
+  "processing_seconds": 77.81136106599934
+}

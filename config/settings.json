@@ -1,0 +1,103 @@
+{
+  "web": {
+    "host": "127.0.0.1",
+    "port": 8080,
+    "origin": "https://uav.laiting1202.com",
+    "session_hours": 8
+  },
+  "camera": {
+    "source": "rtsp://192.168.144.135/live",
+    "width": 1920,
+    "height": 1080,
+    "fps": 4,
+    "timeout_s": 5,
+    "refresh_s": 240,
+    "g3p_start": true,
+    "g3p_settings": {
+      "camera_mode": "normal_record",
+      "EIS": "off",
+      "video_resolution": "1080P 30fps",
+      "SecStream_resolution": "1080P",
+      "SecStream_BitRate": "2M"
+    }
+  },
+  "preview": {
+    "width": 960,
+    "fps": 2,
+    "jpeg_quality": 55
+  },
+  "telemetry": {
+    "connection": "/dev/serial/by-id/usb-ALIGN_AP6-M490-ds_330032000D51333331333534-if00",
+    "baud": 115200,
+    "system_id": 1,
+    "stale_s": 2.0,
+    "heartbeat_timeout_s": 8,
+    "retry_s": 1,
+    "rate_retry_s": 5,
+    "gimbal_component_id": 0,
+    "gimbal_device_id": null,
+    "usb_serial": "330032000D51333331333534",
+    "usb_vid": 10840,
+    "usb_pid": 40962,
+    "component_id": 1
+  },
+  "flight_tracks": {
+    "enabled": false
+  },
+  "detection": {
+    "model": "president-cup-v5",
+    "vehicle_conf": 0.25,
+    "track_conf": 0.1,
+    "white_ratio": 0.3,
+    "red_ratio": 0.015,
+    "red_pixels": 8,
+    "roof_red_fallback": true,
+    "roi_scale": 1.8,
+    "confirm_hits": 1,
+    "record_after_s": 0.0,
+    "track_iou": 0.15,
+    "track_ttl_s": 0.35,
+    "record_interval_s": 10
+  },
+  "geolocation": {
+    "calibrated": false,
+    "orientation_source": "assumed_nadir",
+    "gimbal_boresight_rpy_deg": [
+      0,
+      0,
+      0
+    ],
+    "fx": 0,
+    "fy": 0,
+    "cx": 960,
+    "cy": 540,
+    "width": 1920,
+    "height": 1080,
+    "distortion": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "mount_rpy_deg": [
+      0,
+      -90,
+      0
+    ],
+    "offset_frd_m": [
+      0,
+      0,
+      0
+    ],
+    "min_gps_fix": 3,
+    "estimated_focal_ratio": 0.9,
+    "assume_ground_at_takeoff": true,
+    "ground_altitude_relative_m": null,
+    "max_distance_m": 500
+  },
+  "storage": {
+    "max_events": 10000,
+    "min_free_mb": 512
+  }
+}

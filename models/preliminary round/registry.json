@@ -1,0 +1,4 @@
+{
+  "visdrone-engine": {"file": "VisDrone_train1_5090best.engine", "imgsz": 1280, "device": "0", "half": true, "classes": ["car", "van", "truck", "bus"], "description": "舊版總統盃 TensorRT 模型；限相容的 Jetson / TensorRT，固定 1280"},
+  "visdrone-pt": {"file": "VisDrone_train1_5090best.pt", "imgsz": 1280, "device": "auto", "half": true, "classes": ["car", "van", "truck", "bus"], "description": "同一模型的 PyTorch 權重；方便重新匯出與切換設備"}
+}

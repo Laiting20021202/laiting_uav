@@ -1,0 +1,10 @@
+{
+  "road-vehicle-tank-v2": {
+    "file": "best.pt",
+    "imgsz": 1024,
+    "device": "auto",
+    "half": true,
+    "classes": ["car", "van", "truck", "bus", "tank"],
+    "description": "道路車輛與戰車 v2；辨識 car、van、truck、bus、tank，1024 輸入尺寸"
+  }
+}

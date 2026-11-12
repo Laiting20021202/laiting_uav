@@ -1,0 +1,16 @@
+{
+  "president-cup-v5": {
+    "file": "best.pt",
+    "imgsz": 1280,
+    "device": "auto",
+    "half": true,
+    "classes": [
+      "civilian_vehicle",
+      "light_tactical_vehicle",
+      "medium_tactical_vehicle",
+      "clouded_leopard_armored_vehicle",
+      "amphibious_assault_vehicle"
+    ],
+    "description": "總統盃 v5（預設）；五類車輛，1280 輸入尺寸，對齊 realtime demo"
+  }
+}

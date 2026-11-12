@@ -1,0 +1,17 @@
+From: Michal Pecio <michal.pecio@gmail.com>
+Subject: [BACKPORT] usb: xhci: Improve Soft Retries after short transfers
+
+Backport e765ab012f73717238c95ab9c34bfc3c767fa48c without changing
+its semantics. NVIDIA 5.15.185 has debug output in this case; retain it
+and use that context to distinguish the bulk/intr case from control TDs.
+
+--- a/drivers/usb/host/xhci-ring.c
++++ b/drivers/usb/host/xhci-ring.c
+@@ -2660,6 +2660,7 @@ static int process_bulk_intr_td(struct xhci_hcd *xhci, struct xhci_virt_ep *ep,
+ 		td->status = 0;
+ 		break;
+ 	case COMP_SHORT_PACKET:
++		ep->err_count = 0;
+ 		xhci_dbg(xhci, "ep %#x - asked for %d bytes, %d bytes untransferred\n",
+ 			 td->urb->ep->desc.bEndpointAddress,
+ 			 requested, remaining);

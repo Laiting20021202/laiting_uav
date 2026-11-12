@@ -1,0 +1,351 @@
+{
+  "images": 120,
+  "split": "test",
+  "imgsz": 1536,
+  "match_iou": 0.5,
+  "nms_iou": 0.6,
+  "max_det": 300,
+  "counting": "Aggregate object instances; repeated classes count per image.",
+  "models": {
+    "baseline": {
+      "0.25": {
+        "true_positive_boxes": 414,
+        "false_positive_boxes": 63,
+        "missed_targets": 74,
+        "precision": 0.8679245283018868,
+        "recall": 0.8483606557377049,
+        "false_discovery_fraction": 0.1320754716981132,
+        "f1": 0.8580310880829015,
+        "per_class": {
+          "civilian_vehicle": {
+            "true_positive_boxes": 338,
+            "false_positive_boxes": 0,
+            "missed_targets": 36,
+            "precision": 1.0,
+            "recall": 0.9037433155080213,
+            "false_discovery_fraction": 0.0,
+            "f1": 0.9494382022471909
+          },
+          "light_tactical_vehicle": {
+            "true_positive_boxes": 20,
+            "false_positive_boxes": 17,
+            "missed_targets": 10,
+            "precision": 0.5405405405405406,
+            "recall": 0.6666666666666666,
+            "false_discovery_fraction": 0.4594594594594595,
+            "f1": 0.5970149253731343
+          },
+          "medium_tactical_vehicle": {
+            "true_positive_boxes": 23,
+            "false_positive_boxes": 24,
+            "missed_targets": 9,
+            "precision": 0.48936170212765956,
+            "recall": 0.71875,
+            "false_discovery_fraction": 0.5106382978723404,
+            "f1": 0.5822784810126582
+          },
+          "clouded_leopard_armored_vehicle": {
+            "true_positive_boxes": 9,
+            "false_positive_boxes": 1,
+            "missed_targets": 15,
+            "precision": 0.9,
+            "recall": 0.375,
+            "false_discovery_fraction": 0.1,
+            "f1": 0.5294117647058825
+          },
+          "amphibious_assault_vehicle": {
+            "true_positive_boxes": 24,
+            "false_positive_boxes": 21,
+            "missed_targets": 4,
+            "precision": 0.5333333333333333,
+            "recall": 0.8571428571428571,
+            "false_discovery_fraction": 0.4666666666666667,
+            "f1": 0.6575342465753424
+          }
+        }
+      },
+      "0.3": {
+        "true_positive_boxes": 412,
+        "false_positive_boxes": 44,
+        "missed_targets": 76,
+        "precision": 0.9035087719298246,
+        "recall": 0.8442622950819673,
+        "false_discovery_fraction": 0.09649122807017543,
+        "f1": 0.8728813559322034,
+        "per_class": {
+          "civilian_vehicle": {
+            "true_positive_boxes": 338,
+            "false_positive_boxes": 0,
+            "missed_targets": 36,
+            "precision": 1.0,
+            "recall": 0.9037433155080213,
+            "false_discovery_fraction": 0.0,
+            "f1": 0.9494382022471909
+          },
+          "light_tactical_vehicle": {
+            "true_positive_boxes": 19,
+            "false_positive_boxes": 10,
+            "missed_targets": 11,
+            "precision": 0.6551724137931034,
+            "recall": 0.6333333333333333,
+            "false_discovery_fraction": 0.3448275862068966,
+            "f1": 0.6440677966101694
+          },
+          "medium_tactical_vehicle": {
+            "true_positive_boxes": 22,
+            "false_positive_boxes": 18,
+            "missed_targets": 10,
+            "precision": 0.55,
+            "recall": 0.6875,
+            "false_discovery_fraction": 0.45,
+            "f1": 0.6111111111111112
+          },
+          "clouded_leopard_armored_vehicle": {
+            "true_positive_boxes": 9,
+            "false_positive_boxes": 0,
+            "missed_targets": 15,
+            "precision": 1.0,
+            "recall": 0.375,
+            "false_discovery_fraction": 0.0,
+            "f1": 0.5454545454545454
+          },
+          "amphibious_assault_vehicle": {
+            "true_positive_boxes": 24,
+            "false_positive_boxes": 16,
+            "missed_targets": 4,
+            "precision": 0.6,
+            "recall": 0.8571428571428571,
+            "false_discovery_fraction": 0.4,
+            "f1": 0.7058823529411764
+          }
+        }
+      },
+      "0.45": {
+        "true_positive_boxes": 397,
+        "false_positive_boxes": 21,
+        "missed_targets": 91,
+        "precision": 0.9497607655502392,
+        "recall": 0.8135245901639344,
+        "false_discovery_fraction": 0.050239234449760764,
+        "f1": 0.8763796909492274,
+        "per_class": {
+          "civilian_vehicle": {
+            "true_positive_boxes": 327,
+            "false_positive_boxes": 0,
+            "missed_targets": 47,
+            "precision": 1.0,
+            "recall": 0.8743315508021391,
+            "false_discovery_fraction": 0.0,
+            "f1": 0.9329529243937232
+          },
+          "light_tactical_vehicle": {
+            "true_positive_boxes": 18,
+            "false_positive_boxes": 7,
+            "missed_targets": 12,
+            "precision": 0.72,
+            "recall": 0.6,
+            "false_discovery_fraction": 0.28,
+            "f1": 0.6545454545454547
+          },
+          "medium_tactical_vehicle": {
+            "true_positive_boxes": 20,
+            "false_positive_boxes": 8,
+            "missed_targets": 12,
+            "precision": 0.7142857142857143,
+            "recall": 0.625,
+            "false_discovery_fraction": 0.2857142857142857,
+            "f1": 0.6666666666666666
+          },
+          "clouded_leopard_armored_vehicle": {
+            "true_positive_boxes": 8,
+            "false_positive_boxes": 0,
+            "missed_targets": 16,
+            "precision": 1.0,
+            "recall": 0.3333333333333333,
+            "false_discovery_fraction": 0.0,
+            "f1": 0.5
+          },
+          "amphibious_assault_vehicle": {
+            "true_positive_boxes": 24,
+            "false_positive_boxes": 6,
+            "missed_targets": 4,
+            "precision": 0.8,
+            "recall": 0.8571428571428571,
+            "false_discovery_fraction": 0.2,
+            "f1": 0.8275862068965518
+          }
+        }
+      }
+    },
+    "v5": {
+      "0.25": {
+        "true_positive_boxes": 435,
+        "false_positive_boxes": 48,
+        "missed_targets": 53,
+        "precision": 0.9006211180124224,
+        "recall": 0.8913934426229508,
+        "false_discovery_fraction": 0.09937888198757763,
+        "f1": 0.8959835221421216,
+        "per_class": {
+          "civilian_vehicle": {
+            "true_positive_boxes": 339,
+            "false_positive_boxes": 6,
+            "missed_targets": 35,
+            "precision": 0.9826086956521739,
+            "recall": 0.9064171122994652,
+            "false_discovery_fraction": 0.017391304347826087,
+            "f1": 0.9429763560500695
+          },
+          "light_tactical_vehicle": {
+            "true_positive_boxes": 24,
+            "false_positive_boxes": 3,
+            "missed_targets": 6,
+            "precision": 0.8888888888888888,
+            "recall": 0.8,
+            "false_discovery_fraction": 0.1111111111111111,
+            "f1": 0.8421052631578948
+          },
+          "medium_tactical_vehicle": {
+            "true_positive_boxes": 27,
+            "false_positive_boxes": 7,
+            "missed_targets": 5,
+            "precision": 0.7941176470588235,
+            "recall": 0.84375,
+            "false_discovery_fraction": 0.20588235294117646,
+            "f1": 0.8181818181818182
+          },
+          "clouded_leopard_armored_vehicle": {
+            "true_positive_boxes": 19,
+            "false_positive_boxes": 13,
+            "missed_targets": 5,
+            "precision": 0.59375,
+            "recall": 0.7916666666666666,
+            "false_discovery_fraction": 0.40625,
+            "f1": 0.6785714285714286
+          },
+          "amphibious_assault_vehicle": {
+            "true_positive_boxes": 26,
+            "false_positive_boxes": 19,
+            "missed_targets": 2,
+            "precision": 0.5777777777777777,
+            "recall": 0.9285714285714286,
+            "false_discovery_fraction": 0.4222222222222222,
+            "f1": 0.7123287671232876
+          }
+        }
+      },
+      "0.3": {
+        "true_positive_boxes": 435,
+        "false_positive_boxes": 38,
+        "missed_targets": 53,
+        "precision": 0.919661733615222,
+        "recall": 0.8913934426229508,
+        "false_discovery_fraction": 0.080338266384778,
+        "f1": 0.9053069719042663,
+        "per_class": {
+          "civilian_vehicle": {
+            "true_positive_boxes": 339,
+            "false_positive_boxes": 6,
+            "missed_targets": 35,
+            "precision": 0.9826086956521739,
+            "recall": 0.9064171122994652,
+            "false_discovery_fraction": 0.017391304347826087,
+            "f1": 0.9429763560500695
+          },
+          "light_tactical_vehicle": {
+            "true_positive_boxes": 24,
+            "false_positive_boxes": 3,
+            "missed_targets": 6,
+            "precision": 0.8888888888888888,
+            "recall": 0.8,
+            "false_discovery_fraction": 0.1111111111111111,
+            "f1": 0.8421052631578948
+          },
+          "medium_tactical_vehicle": {
+            "true_positive_boxes": 27,
+            "false_positive_boxes": 6,
+            "missed_targets": 5,
+            "precision": 0.8181818181818182,
+            "recall": 0.84375,
+            "false_discovery_fraction": 0.18181818181818182,
+            "f1": 0.8307692307692308
+          },
+          "clouded_leopard_armored_vehicle": {
+            "true_positive_boxes": 19,
+            "false_positive_boxes": 12,
+            "missed_targets": 5,
+            "precision": 0.6129032258064516,
+            "recall": 0.7916666666666666,
+            "false_discovery_fraction": 0.3870967741935484,
+            "f1": 0.6909090909090909
+          },
+          "amphibious_assault_vehicle": {
+            "true_positive_boxes": 26,
+            "false_positive_boxes": 11,
+            "missed_targets": 2,
+            "precision": 0.7027027027027027,
+            "recall": 0.9285714285714286,
+            "false_discovery_fraction": 0.2972972972972973,
+            "f1": 0.7999999999999999
+          }
+        }
+      },
+      "0.45": {
+        "true_positive_boxes": 430,
+        "false_positive_boxes": 23,
+        "missed_targets": 58,
+        "precision": 0.9492273730684326,
+        "recall": 0.8811475409836066,
+        "false_discovery_fraction": 0.05077262693156733,
+        "f1": 0.9139213602550478,
+        "per_class": {
+          "civilian_vehicle": {
+            "true_positive_boxes": 334,
+            "false_positive_boxes": 6,
+            "missed_targets": 40,
+            "precision": 0.9823529411764705,
+            "recall": 0.893048128342246,
+            "false_discovery_fraction": 0.01764705882352941,
+            "f1": 0.9355742296918766
+          },
+          "light_tactical_vehicle": {
+            "true_positive_boxes": 24,
+            "false_positive_boxes": 3,
+            "missed_targets": 6,
+            "precision": 0.8888888888888888,
+            "recall": 0.8,
+            "false_discovery_fraction": 0.1111111111111111,
+            "f1": 0.8421052631578948
+          },
+          "medium_tactical_vehicle": {
+            "true_positive_boxes": 27,
+            "false_positive_boxes": 5,
+            "missed_targets": 5,
+            "precision": 0.84375,
+            "recall": 0.84375,
+            "false_discovery_fraction": 0.15625,
+            "f1": 0.84375
+          },
+          "clouded_leopard_armored_vehicle": {
+            "true_positive_boxes": 19,
+            "false_positive_boxes": 7,
+            "missed_targets": 5,
+            "precision": 0.7307692307692307,
+            "recall": 0.7916666666666666,
+            "false_discovery_fraction": 0.2692307692307692,
+            "f1": 0.76
+          },
+          "amphibious_assault_vehicle": {
+            "true_positive_boxes": 26,
+            "false_positive_boxes": 2,
+            "missed_targets": 2,
+            "precision": 0.9285714285714286,
+            "recall": 0.9285714285714286,
+            "false_discovery_fraction": 0.07142857142857142,
+            "f1": 0.9285714285714286
+          }
+        }
+      }
+    }
+  }
+}

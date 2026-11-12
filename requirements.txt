@@ -1,0 +1,11 @@
+# Keep Jetson's NVIDIA torch/torchvision, OpenCV and TensorRT installations.
+# Installed into a venv with --system-site-packages; do not pip-upgrade torch.
+fastapi==0.141.1
+starlette==1.6.0
+uvicorn==0.52.4
+ultralytics==8.4.47
+pymavlink==2.4.49
+numpy==1.26.4
+pyproj==3.7.1
+Pillow==12.2.0
+dnspython==2.8.0

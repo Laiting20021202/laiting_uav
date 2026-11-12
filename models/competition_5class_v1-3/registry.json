@@ -1,0 +1,16 @@
+{
+  "competition-5class-v1-3": {
+    "file": "weights/best.pt",
+    "imgsz": 1536,
+    "device": "auto",
+    "half": true,
+    "classes": [
+      "civilian_vehicle",
+      "light_tactical_vehicle",
+      "medium_tactical_vehicle",
+      "clouded_leopard_armored_vehicle",
+      "amphibious_assault_vehicle"
+    ],
+    "description": "競賽五類 v1-3；五類車輛，1536 輸入尺寸"
+  }
+}

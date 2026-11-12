@@ -1,0 +1,208 @@
+{
+  "model": "/home/david/Desktop/laiting/無人機決賽/模擬訓練/models/road_vehicle_tank_v2/best.pt",
+  "dataset": "/home/david/Desktop/laiting/無人機決賽/模擬訓練/datasets/simulator_vehicle_tank_v2",
+  "confidence": 0.25,
+  "match_iou": 0.5,
+  "altitudes": {
+    "30": {
+      "car": {
+        "tp": 7,
+        "fp": 0,
+        "fn": 0,
+        "images": 20,
+        "ground_truth": 7,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "tank": {
+        "tp": 13,
+        "fp": 0,
+        "fn": 1,
+        "images": 20,
+        "ground_truth": 14,
+        "precision": 1.0,
+        "recall": 0.9285714285714286
+      }
+    },
+    "50": {
+      "car": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "images": 20,
+        "ground_truth": 9,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "tank": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 2,
+        "images": 20,
+        "ground_truth": 8,
+        "precision": 1.0,
+        "recall": 0.75
+      }
+    },
+    "75": {
+      "car": {
+        "tp": 11,
+        "fp": 3,
+        "fn": 0,
+        "images": 20,
+        "ground_truth": 11,
+        "precision": 0.7857142857142857,
+        "recall": 1.0
+      },
+      "tank": {
+        "tp": 8,
+        "fp": 3,
+        "fn": 0,
+        "images": 20,
+        "ground_truth": 8,
+        "precision": 0.7272727272727273,
+        "recall": 1.0
+      }
+    },
+    "100": {
+      "car": {
+        "tp": 11,
+        "fp": 0,
+        "fn": 0,
+        "images": 20,
+        "ground_truth": 11,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "tank": {
+        "tp": 14,
+        "fp": 1,
+        "fn": 2,
+        "images": 20,
+        "ground_truth": 16,
+        "precision": 0.9333333333333333,
+        "recall": 0.875
+      }
+    },
+    "125": {
+      "car": {
+        "tp": 19,
+        "fp": 1,
+        "fn": 0,
+        "images": 20,
+        "ground_truth": 19,
+        "precision": 0.95,
+        "recall": 1.0
+      },
+      "tank": {
+        "tp": 14,
+        "fp": 0,
+        "fn": 1,
+        "images": 20,
+        "ground_truth": 15,
+        "precision": 1.0,
+        "recall": 0.9333333333333333
+      }
+    },
+    "150": {
+      "car": {
+        "tp": 17,
+        "fp": 1,
+        "fn": 0,
+        "images": 20,
+        "ground_truth": 17,
+        "precision": 0.9444444444444444,
+        "recall": 1.0
+      },
+      "tank": {
+        "tp": 22,
+        "fp": 3,
+        "fn": 2,
+        "images": 20,
+        "ground_truth": 24,
+        "precision": 0.88,
+        "recall": 0.9166666666666666
+      }
+    },
+    "175": {
+      "car": {
+        "tp": 24,
+        "fp": 2,
+        "fn": 0,
+        "images": 20,
+        "ground_truth": 24,
+        "precision": 0.9230769230769231,
+        "recall": 1.0
+      },
+      "tank": {
+        "tp": 28,
+        "fp": 1,
+        "fn": 1,
+        "images": 20,
+        "ground_truth": 29,
+        "precision": 0.9655172413793104,
+        "recall": 0.9655172413793104
+      }
+    },
+    "200": {
+      "car": {
+        "tp": 22,
+        "fp": 4,
+        "fn": 4,
+        "images": 20,
+        "ground_truth": 26,
+        "precision": 0.8461538461538461,
+        "recall": 0.8461538461538461
+      },
+      "tank": {
+        "tp": 26,
+        "fp": 7,
+        "fn": 3,
+        "images": 20,
+        "ground_truth": 29,
+        "precision": 0.7878787878787878,
+        "recall": 0.896551724137931
+      }
+    },
+    "225": {
+      "car": {
+        "tp": 32,
+        "fp": 3,
+        "fn": 10,
+        "images": 20,
+        "ground_truth": 42,
+        "precision": 0.9142857142857143,
+        "recall": 0.7619047619047619
+      },
+      "tank": {
+        "tp": 28,
+        "fp": 6,
+        "fn": 6,
+        "images": 20,
+        "ground_truth": 34,
+        "precision": 0.8235294117647058,
+        "recall": 0.8235294117647058
+      }
+    },
+    "250": {
+      "car": {
+        "tp": 30,
+        "fp": 2,
+        "fn": 7,
+        "images": 20,
+        "ground_truth": 37,
+        "precision": 0.9375,
+        "recall": 0.8108108108108109
+      },
+      "tank": {
+        "tp": 41,
+        "fp": 3,
+        "fn": 2,
+        "images": 20,
+        "ground_truth": 43,
+        "precision": 0.9318181818181818,
+        "recall": 0.9534883720930233
+      }
+    }
+  }
+}

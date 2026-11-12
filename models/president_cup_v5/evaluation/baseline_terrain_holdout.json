@@ -1,0 +1,84 @@
+{
+  "model": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/models/competition_5class_v1-3/weights/best.pt",
+  "images": 112,
+  "imgsz": 1536,
+  "known_target_count": 0,
+  "thresholds": {
+    "0.05": {
+      "images_with_false_detection": 82,
+      "false_boxes": 301,
+      "boxes_by_class": {
+        "clouded_leopard_armored_vehicle": 99,
+        "light_tactical_vehicle": 95,
+        "medium_tactical_vehicle": 90,
+        "amphibious_assault_vehicle": 15,
+        "civilian_vehicle": 2
+      }
+    },
+    "0.1": {
+      "images_with_false_detection": 62,
+      "false_boxes": 175,
+      "boxes_by_class": {
+        "clouded_leopard_armored_vehicle": 50,
+        "light_tactical_vehicle": 58,
+        "medium_tactical_vehicle": 54,
+        "amphibious_assault_vehicle": 12,
+        "civilian_vehicle": 1
+      }
+    },
+    "0.2": {
+      "images_with_false_detection": 47,
+      "false_boxes": 91,
+      "boxes_by_class": {
+        "clouded_leopard_armored_vehicle": 26,
+        "light_tactical_vehicle": 35,
+        "amphibious_assault_vehicle": 5,
+        "medium_tactical_vehicle": 25
+      }
+    },
+    "0.25": {
+      "images_with_false_detection": 40,
+      "false_boxes": 64,
+      "boxes_by_class": {
+        "clouded_leopard_armored_vehicle": 19,
+        "amphibious_assault_vehicle": 4,
+        "light_tactical_vehicle": 26,
+        "medium_tactical_vehicle": 15
+      }
+    },
+    "0.3": {
+      "images_with_false_detection": 33,
+      "false_boxes": 48,
+      "boxes_by_class": {
+        "clouded_leopard_armored_vehicle": 13,
+        "amphibious_assault_vehicle": 3,
+        "light_tactical_vehicle": 22,
+        "medium_tactical_vehicle": 10
+      }
+    },
+    "0.45": {
+      "images_with_false_detection": 16,
+      "false_boxes": 21,
+      "boxes_by_class": {
+        "clouded_leopard_armored_vehicle": 7,
+        "amphibious_assault_vehicle": 3,
+        "medium_tactical_vehicle": 3,
+        "light_tactical_vehicle": 8
+      }
+    },
+    "0.6": {
+      "images_with_false_detection": 12,
+      "false_boxes": 14,
+      "boxes_by_class": {
+        "clouded_leopard_armored_vehicle": 4,
+        "amphibious_assault_vehicle": 3,
+        "light_tactical_vehicle": 6,
+        "medium_tactical_vehicle": 1
+      }
+    }
+  },
+  "maximum_score": {
+    "max": 0.8361102342605591,
+    "mean": 0.21312351930620416
+  }
+}

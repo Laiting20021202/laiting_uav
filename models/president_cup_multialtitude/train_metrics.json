@@ -1,0 +1,12 @@
+{
+  "base_model": "/home/david/Desktop/laiting/無人機決賽/模擬訓練/models/preliminary round/VisDrone_train1_5090best.pt",
+  "selected_epoch": 28,
+  "completed_epochs": 30,
+  "imgsz": 1280,
+  "precision": 0.98169,
+  "recall": 0.88132,
+  "map50": 0.96617,
+  "map50_95": 0.70539,
+  "save_dir": "/home/david/Desktop/laiting/無人機決賽/模擬訓練/models/president_cup_multialtitude/runs/multialtitude_target_adaptation",
+  "stopping_reason": "Acceptance criteria satisfied; best checkpoint selected after 30 complete epochs."
+}

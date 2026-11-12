@@ -1,0 +1,27 @@
+[Unit]
+Description=Onboard D-Link USB and Wi-Fi 4G path selection
+After=NetworkManager.service
+Wants=NetworkManager.service
+StartLimitIntervalSec=0
+
+[Service]
+Type=notify
+ExecStart=/usr/bin/python3 -I /usr/local/lib/laiting-uav/modem_path_manager.py monitor
+Restart=always
+RestartSec=2
+WatchdogSec=120
+NotifyAccess=main
+TimeoutStopSec=5
+RuntimeDirectory=laiting-uav-network
+RuntimeDirectoryMode=0755
+StateDirectory=laiting-uav-network
+StateDirectoryMode=0700
+UMask=0077
+NoNewPrivileges=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/proc/sys/net/ipv4/conf
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

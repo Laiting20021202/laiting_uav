@@ -1,0 +1,35 @@
+{
+  "model": "best.pt",
+  "sha256": "8a346c0c5bf842c8c35a01764da72247a9c3dec9f1b54412b1320a657846be20",
+  "architecture": "Ultralytics YOLO11m detection",
+  "classes": {
+    "0": "vehicle",
+    "1": "tank"
+  },
+  "input_size": 1280,
+  "base_checkpoint": "models/preliminary round/VisDrone_train1_5090best.pt",
+  "selected_epoch": 28,
+  "completed_epochs": 30,
+  "training_images": 500,
+  "validation_images": 100,
+  "simulation_test_images": 80,
+  "target_acceptance_images": 50,
+  "simulation_test": {
+    "precision": 0.9800300832428022,
+    "recall": 0.8828953927223527,
+    "map50": 0.9481520145813083,
+    "map50_95": 0.6510980593987525,
+    "vehicle_recall": 0.8410596026490066,
+    "tank_recall": 0.9247311827956989
+  },
+  "tank_dataset_acceptance": {
+    "instances": 209,
+    "precision": 1.0,
+    "recall": 0.9995410270854168,
+    "map50": 0.995,
+    "map50_95": 0.9271313867271791
+  },
+  "evaluated_altitudes_m": [50, 75, 100, 150, 225, 325, 450],
+  "scope": "Synthetic countryside simulator plus the supplied tank_dataset target domain.",
+  "limitation": "Metrics do not establish accuracy on unlabelled real UAV camera imagery or altitudes outside 50-450 m."
+}

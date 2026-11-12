@@ -1,0 +1,11 @@
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: civilian_vehicle
+  1: light_tactical_vehicle
+  2: medium_tactical_vehicle
+  3: clouded_leopard_armored_vehicle
+  4: amphibious_assault_vehicle
+path: "/home/david/Desktop/laiting/\u7121\u4EBA\u6A5F\u6C7A\u8CFD/\u6A21\u64EC\u8A13\
+  \u7DF4/datasets/president_cup_v4_refined"

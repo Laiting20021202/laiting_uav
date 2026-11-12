@@ -1,0 +1,22 @@
+{
+  "metrics/precision(B)": 0.4757585708723047,
+  "metrics/recall(B)": 0.3835904781256008,
+  "metrics/mAP50(B)": 0.38793312134023544,
+  "metrics/mAP50-95(B)": 0.2732160810594432,
+  "fitness": 0.2732160810594432,
+  "map50": 0.38793312134023544,
+  "map50_95": 0.2732160810594432,
+  "precision": 0.4757585708723047,
+  "recall": 0.3835904781256008,
+  "car_precision": 0.06152849853126145,
+  "car_recall": 0.15179634086658625,
+  "car_map50": 0.048872918054242986,
+  "car_map50_95": 0.040945583501378294,
+  "tank_precision": 0.889988643213348,
+  "tank_recall": 0.6153846153846154,
+  "tank_map50": 0.7269933246262279,
+  "tank_map50_95": 0.5054865786175082,
+  "model": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/models/road_vehicle_tank_v2/selected_init.pt",
+  "split": "test",
+  "save_dir": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/models/road_vehicle_tank_v2/evaluation/plots"
+}

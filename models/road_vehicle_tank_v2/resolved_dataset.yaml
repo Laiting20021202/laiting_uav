@@ -1,0 +1,11 @@
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: car
+  1: van
+  2: truck
+  3: bus
+  4: tank
+path: "/home/david/Desktop/laiting/\u7121\u4EBA\u6A5F\u6C7A\u8CFD/\u6A21\u64EC\u8A13\
+  \u7DF4/datasets/road_vehicle_tank_v2"

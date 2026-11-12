@@ -1,0 +1,18 @@
+[Unit]
+Description=Read-only USB and onboard 4G observation for the first boot window
+After=NetworkManager.service uav-modem-paths.service
+Wants=uav-modem-paths.service
+[Service]
+Type=exec
+ExecStart=/usr/bin/python3 -I /usr/local/lib/laiting-uav/diagnose_modem_restart.py --boot-observe-base /var/lib/laiting-uav-network/boot-observation --seconds 180
+RuntimeMaxSec=205
+KillMode=control-group
+UMask=0077
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+StateDirectory=laiting-uav-network
+StateDirectoryMode=0700
+PrivateTmp=true
+[Install]
+WantedBy=multi-user.target

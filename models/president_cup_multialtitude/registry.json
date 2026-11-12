@@ -1,0 +1,10 @@
+{
+  "president-cup-multialtitude": {
+    "file": "best.pt",
+    "imgsz": 1280,
+    "device": "auto",
+    "half": true,
+    "classes": ["vehicle", "tank"],
+    "description": "總統盃決賽多高度 YOLO11m 模型；辨識 vehicle 與 tank，50–450 公尺訓練範圍"
+  }
+}

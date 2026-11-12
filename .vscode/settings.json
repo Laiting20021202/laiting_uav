@@ -1,0 +1,29 @@
+{
+  "files.watcherExclude": {
+    "**/data/**": true,
+    "**/.venv/**": true,
+    "**/models/**": true,
+    "**/test_video/**": true,
+    "**/飛行畫面/**": true,
+    "**/__pycache__/**": true,
+    "**/.pytest_cache/**": true
+  },
+  "search.exclude": {
+    "**/data/**": true,
+    "**/.venv/**": true,
+    "**/models/**": true,
+    "**/test_video/**": true,
+    "**/飛行畫面/**": true,
+    "**/__pycache__/**": true,
+    "**/.pytest_cache/**": true
+  },
+  "python.analysis.include": ["uav", "scripts", "tests"],
+  "python.analysis.exclude": [
+    "**/data/**", "**/.venv/**", "**/models/**",
+    "**/test_video/**", "**/飛行畫面/**",
+    "**/__pycache__/**", "**/.pytest_cache/**"
+  ],
+  "python.analysis.diagnosticMode": "openFilesOnly",
+  "python.analysis.indexing": false,
+  "geminicodeassist.contextExclusionFile": ".aiexclude"
+}

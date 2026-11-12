@@ -1,0 +1,20 @@
+[Unit]
+Description=AP6 telemetry readiness evidence across boots (read-only)
+Wants=uav-v2.service
+After=uav-v2.service
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+WorkingDirectory=/home/hrc/laiting_uav
+ExecStart=/home/hrc/laiting_uav/.venv/bin/python /home/hrc/laiting_uav/scripts/ap6_link_monitor.py
+Restart=always
+RestartSec=5
+TimeoutStopSec=15
+UMask=0077
+Environment=PYTHONDONTWRITEBYTECODE=1
+NoNewPrivileges=true
+RestrictSUIDSGID=true
+
+[Install]
+WantedBy=default.target

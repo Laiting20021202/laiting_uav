@@ -1,0 +1,23 @@
+[Unit]
+Description=Read-only per-boot onboard 4G and public website acceptance
+After=NetworkManager.service uav-modem-paths.service
+Wants=uav-modem-paths.service uav-modem-recovery.service uav-modem-rf-guard.service
+StartLimitIntervalSec=0
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 -I /usr/local/lib/laiting-uav/network_boot_check.py
+Restart=on-failure
+RestartSec=30
+TimeoutStartSec=210
+RemainAfterExit=yes
+UMask=0077
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+StateDirectory=laiting-uav-boot-validation
+StateDirectoryMode=0700
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,16 @@
+{
+  "president-cup-v4-refined": {
+    "file": "best.pt",
+    "imgsz": 1280,
+    "device": "auto",
+    "half": true,
+    "classes": [
+      "civilian_vehicle",
+      "light_tactical_vehicle",
+      "medium_tactical_vehicle",
+      "clouded_leopard_armored_vehicle",
+      "amphibious_assault_vehicle"
+    ],
+    "description": "總統盃 v4 精修模型；民用車、輕型／中型戰術車、雲豹裝甲車、兩棲突擊車，1280 輸入尺寸"
+  }
+}

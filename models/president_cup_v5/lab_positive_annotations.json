@@ -1,0 +1,177 @@
+{
+  "class_authority": "User explicitly supplied vehicle picture order; physical identity follows camera reversal.",
+  "canonical_order": [
+    1,
+    1,
+    2,
+    4,
+    3
+  ],
+  "training_frames": [
+    {
+      "frame": 110,
+      "anchor": 110,
+      "boxes": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            819,
+            458,
+            856,
+            537
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            879,
+            460,
+            916,
+            540
+          ]
+        },
+        {
+          "class_id": 2,
+          "xyxy": [
+            940,
+            448,
+            984,
+            587
+          ]
+        },
+        {
+          "class_id": 4,
+          "xyxy": [
+            1005,
+            445,
+            1067,
+            584
+          ]
+        },
+        {
+          "class_id": 3,
+          "xyxy": [
+            1075,
+            457,
+            1125,
+            577
+          ]
+        }
+      ],
+      "matching": {
+        "manual_anchor": true
+      }
+    },
+    {
+      "frame": 320,
+      "anchor": 320,
+      "boxes": [
+        {
+          "class_id": 3,
+          "xyxy": [
+            800,
+            305,
+            846,
+            421
+          ]
+        },
+        {
+          "class_id": 4,
+          "xyxy": [
+            859,
+            295,
+            914,
+            431
+          ]
+        },
+        {
+          "class_id": 2,
+          "xyxy": [
+            940,
+            289,
+            980,
+            424
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            1003,
+            332,
+            1041,
+            409
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            1058,
+            331,
+            1101,
+            408
+          ]
+        }
+      ],
+      "matching": {
+        "manual_anchor": true
+      }
+    },
+    {
+      "frame": 530,
+      "anchor": 530,
+      "boxes": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            780,
+            578,
+            823,
+            661
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            842,
+            579,
+            882,
+            662
+          ]
+        },
+        {
+          "class_id": 2,
+          "xyxy": [
+            906,
+            567,
+            950,
+            706
+          ]
+        },
+        {
+          "class_id": 4,
+          "xyxy": [
+            971,
+            560,
+            1030,
+            702
+          ]
+        },
+        {
+          "class_id": 3,
+          "xyxy": [
+            1038,
+            571,
+            1089,
+            691
+          ]
+        }
+      ],
+      "matching": {
+        "manual_anchor": true
+      }
+    }
+  ],
+  "added_training_images": 48,
+  "review_status": "accepted_after_visual_inspection",
+  "independent_test": false
+}

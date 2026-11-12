@@ -1,0 +1,24 @@
+[Unit]
+Description=Restore disabled RF on the verified UAV D-Link modem
+After=NetworkManager.service
+Wants=NetworkManager.service
+StartLimitIntervalSec=0
+
+[Service]
+Type=notify
+ExecStart=/usr/bin/python3 -I /usr/local/lib/laiting-uav/modem_rf_guard.py monitor
+Restart=always
+RestartSec=5
+WatchdogSec=120
+NotifyAccess=main
+TimeoutStopSec=5
+UMask=0077
+NoNewPrivileges=true
+ProtectHome=true
+ProtectSystem=strict
+StateDirectory=laiting-uav-rf-recovery
+StateDirectoryMode=0700
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

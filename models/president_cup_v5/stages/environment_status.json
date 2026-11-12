@@ -1,0 +1,17 @@
+{
+  "status": "training",
+  "epoch_completed": 3,
+  "epochs_planned": 20,
+  "metrics": {
+    "metrics/precision(B)": 0.83447,
+    "metrics/recall(B)": 0.76263,
+    "metrics/mAP50(B)": 0.84781,
+    "metrics/mAP50-95(B)": 0.53507,
+    "val/box_loss": 1.20097,
+    "val/cls_loss": 0.96513,
+    "val/dfl_loss": 1.13568
+  },
+  "best_fitness": 0.53507,
+  "elapsed_seconds": 489.6602683067322,
+  "checkpoint_source": "/dev/shm/president_cup_v5_work/runs/president_cup_v5"
+}

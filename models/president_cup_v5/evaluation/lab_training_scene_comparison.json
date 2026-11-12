@@ -1,0 +1,220 @@
+{
+  "conf": 0.25,
+  "match_iou": 0.5,
+  "results": {
+    "baseline": {
+      "true_positive_boxes": 15,
+      "false_positive_boxes": 13,
+      "missed_targets": 0,
+      "target_instances": 15,
+      "precision": 0.5357142857142857,
+      "recall": 1.0,
+      "frames": [
+        {
+          "frame": 110,
+          "matched_targets": 5,
+          "predictions": 10,
+          "matches": [
+            {
+              "target_index": 3,
+              "iou": 0.8912448418281503,
+              "confidence": 0.9155153632164001
+            },
+            {
+              "target_index": 1,
+              "iou": 0.9734469580552494,
+              "confidence": 0.8622625470161438
+            },
+            {
+              "target_index": 0,
+              "iou": 0.9672346121208086,
+              "confidence": 0.8307700753211975
+            },
+            {
+              "target_index": 4,
+              "iou": 0.8669187825520833,
+              "confidence": 0.7430733442306519
+            },
+            {
+              "target_index": 2,
+              "iou": 0.9694959606422656,
+              "confidence": 0.642155647277832
+            }
+          ]
+        },
+        {
+          "frame": 320,
+          "matched_targets": 5,
+          "predictions": 8,
+          "matches": [
+            {
+              "target_index": 1,
+              "iou": 0.9269872414396667,
+              "confidence": 0.9299418926239014
+            },
+            {
+              "target_index": 4,
+              "iou": 0.8295302648840984,
+              "confidence": 0.907497763633728
+            },
+            {
+              "target_index": 2,
+              "iou": 0.8836933356707456,
+              "confidence": 0.8977988958358765
+            },
+            {
+              "target_index": 0,
+              "iou": 0.9595005621523236,
+              "confidence": 0.8086618185043335
+            },
+            {
+              "target_index": 3,
+              "iou": 0.8778928911857058,
+              "confidence": 0.789543867111206
+            }
+          ]
+        },
+        {
+          "frame": 530,
+          "matched_targets": 5,
+          "predictions": 10,
+          "matches": [
+            {
+              "target_index": 3,
+              "iou": 0.9332381171296849,
+              "confidence": 0.9579428434371948
+            },
+            {
+              "target_index": 1,
+              "iou": 0.8789017419829022,
+              "confidence": 0.8752051591873169
+            },
+            {
+              "target_index": 4,
+              "iou": 0.8509996202256944,
+              "confidence": 0.8691482543945312
+            },
+            {
+              "target_index": 0,
+              "iou": 0.8659354669769193,
+              "confidence": 0.774928092956543
+            },
+            {
+              "target_index": 2,
+              "iou": 0.9442454502785499,
+              "confidence": 0.63260817527771
+            }
+          ]
+        }
+      ]
+    },
+    "v5": {
+      "true_positive_boxes": 15,
+      "false_positive_boxes": 0,
+      "missed_targets": 0,
+      "target_instances": 15,
+      "precision": 1.0,
+      "recall": 1.0,
+      "frames": [
+        {
+          "frame": 110,
+          "matched_targets": 5,
+          "predictions": 5,
+          "matches": [
+            {
+              "target_index": 0,
+              "iou": 0.6136166363871562,
+              "confidence": 0.8407949805259705
+            },
+            {
+              "target_index": 3,
+              "iou": 0.7835519329462114,
+              "confidence": 0.8367992043495178
+            },
+            {
+              "target_index": 4,
+              "iou": 0.7092589110174436,
+              "confidence": 0.8246080279350281
+            },
+            {
+              "target_index": 1,
+              "iou": 0.649480829318862,
+              "confidence": 0.8204626441001892
+            },
+            {
+              "target_index": 2,
+              "iou": 0.7345956271109503,
+              "confidence": 0.7598334550857544
+            }
+          ]
+        },
+        {
+          "frame": 320,
+          "matched_targets": 5,
+          "predictions": 5,
+          "matches": [
+            {
+              "target_index": 0,
+              "iou": 0.6631194318841783,
+              "confidence": 0.8458210825920105
+            },
+            {
+              "target_index": 4,
+              "iou": 0.657507872288333,
+              "confidence": 0.8320271968841553
+            },
+            {
+              "target_index": 1,
+              "iou": 0.7053368337176555,
+              "confidence": 0.8174436092376709
+            },
+            {
+              "target_index": 3,
+              "iou": 0.6832008210566087,
+              "confidence": 0.8153172135353088
+            },
+            {
+              "target_index": 2,
+              "iou": 0.6698066848197444,
+              "confidence": 0.7448332905769348
+            }
+          ]
+        },
+        {
+          "frame": 530,
+          "matched_targets": 5,
+          "predictions": 5,
+          "matches": [
+            {
+              "target_index": 1,
+              "iou": 0.6796071381058706,
+              "confidence": 0.852983832359314
+            },
+            {
+              "target_index": 4,
+              "iou": 0.7393360500648746,
+              "confidence": 0.8422954082489014
+            },
+            {
+              "target_index": 0,
+              "iou": 0.6270481354071049,
+              "confidence": 0.8081058263778687
+            },
+            {
+              "target_index": 2,
+              "iou": 0.6429831009630192,
+              "confidence": 0.795730471611023
+            },
+            {
+              "target_index": 3,
+              "iou": 0.7619683041964392,
+              "confidence": 0.775631844997406
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "independent_test": false,
+  "warning": "These 3 annotated frames are part of V5 training; results measure fit to the demonstrated scene only."
+}

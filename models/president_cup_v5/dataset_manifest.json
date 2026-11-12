@@ -1,0 +1,2866 @@
+{
+  "base": "/home/david/Desktop/laiting/無人機決賽/模擬訓練/datasets/president_cup_v4_refined",
+  "seed": 20261008,
+  "sources": {
+    "urban_train": [
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999951_00000_d_0000267.jpg",
+        "group": "9999951",
+        "crop_xyxy": [
+          73,
+          384,
+          393,
+          704
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.42565485667394765
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999955_00000_d_0000195.jpg",
+        "group": "9999955",
+        "crop_xyxy": [
+          1012,
+          53,
+          1374,
+          415
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.41004632946024644
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999940_00000_d_0000098.jpg",
+        "group": "9999940",
+        "crop_xyxy": [
+          492,
+          358,
+          812,
+          678
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.32209211801964227
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999998_00198_d_0000158.jpg",
+        "group": "9999998",
+        "crop_xyxy": [
+          1085,
+          381,
+          1695,
+          991
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.20332535829049372
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999937_00000_d_0000167.jpg",
+        "group": "9999937",
+        "crop_xyxy": [
+          1272,
+          513,
+          1700,
+          941
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.23824478801868243
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999984_00000_d_0000075.jpg",
+        "group": "9999984",
+        "crop_xyxy": [
+          4,
+          3,
+          491,
+          490
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.448881613533918
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999966_00000_d_0000001.jpg",
+        "group": "9999966",
+        "crop_xyxy": [
+          16,
+          544,
+          453,
+          981
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.29073208333891076
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999994_00000_d_0000085.jpg",
+        "group": "9999994",
+        "crop_xyxy": [
+          128,
+          4,
+          645,
+          521
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.265188150509938
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999953_00000_d_0000108.jpg",
+        "group": "9999953",
+        "crop_xyxy": [
+          820,
+          162,
+          1298,
+          640
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.26589830543489434
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/0000144_02401_d_0000001.jpg",
+        "group": "0000144",
+        "crop_xyxy": [
+          1329,
+          73,
+          1887,
+          631
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.4314316916182529
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/0000240_01205_d_0000004.jpg",
+        "group": "0000240",
+        "crop_xyxy": [
+          14,
+          217,
+          334,
+          537
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.39971265643080767
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/0000257_03739_d_0000061.jpg",
+        "group": "0000257",
+        "crop_xyxy": [
+          184,
+          400,
+          504,
+          720
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.4699779497144878
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999982_00000_d_0000034.jpg",
+        "group": "9999982",
+        "crop_xyxy": [
+          75,
+          190,
+          546,
+          661
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.3802315229838331
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999953_00000_d_0000138.jpg",
+        "group": "9999953",
+        "crop_xyxy": [
+          57,
+          0,
+          427,
+          370
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.03306278024880052
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999953_00000_d_0000039.jpg",
+        "group": "9999953",
+        "crop_xyxy": [
+          793,
+          401,
+          1133,
+          741
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.1185940332915405
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999962_00000_d_0000165.jpg",
+        "group": "9999962",
+        "crop_xyxy": [
+          234,
+          579,
+          705,
+          1050
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.24875691457231397
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999997_00000_d_0000016.jpg",
+        "group": "9999997",
+        "crop_xyxy": [
+          814,
+          45,
+          1354,
+          585
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.1121421195629249
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/0000264_04001_d_0000214.jpg",
+        "group": "0000264",
+        "crop_xyxy": [
+          47,
+          243,
+          532,
+          728
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.25833081829176496
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999984_00000_d_0000101.jpg",
+        "group": "9999984",
+        "crop_xyxy": [
+          728,
+          566,
+          1191,
+          1029
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.1910374120801103
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999956_00000_d_0000033.jpg",
+        "group": "9999956",
+        "crop_xyxy": [
+          921,
+          239,
+          1246,
+          564
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.4591660435952025
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999951_00000_d_0000088.jpg",
+        "group": "9999951",
+        "crop_xyxy": [
+          925,
+          81,
+          1317,
+          473
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.16649890828601932
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999972_00000_d_0000159.jpg",
+        "group": "9999972",
+        "crop_xyxy": [
+          1329,
+          414,
+          1891,
+          976
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.5375582365101372
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999977_00000_d_0000027.jpg",
+        "group": "9999977",
+        "crop_xyxy": [
+          1227,
+          254,
+          1767,
+          794
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.5197767466772096
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/0000178_00621_d_0000009.jpg",
+        "group": "0000178",
+        "crop_xyxy": [
+          1173,
+          447,
+          1688,
+          962
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.5231104636865394
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999942_00000_d_0000057.jpg",
+        "group": "9999942",
+        "crop_xyxy": [
+          9,
+          552,
+          455,
+          998
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.375937951377025
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999953_00000_d_0000143.jpg",
+        "group": "9999953",
+        "crop_xyxy": [
+          297,
+          165,
+          617,
+          485
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.25156035056597237
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999953_00000_d_0000182.jpg",
+        "group": "9999953",
+        "crop_xyxy": [
+          387,
+          129,
+          826,
+          568
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.16368744891701217
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999984_00000_d_0000069.jpg",
+        "group": "9999984",
+        "crop_xyxy": [
+          734,
+          40,
+          1196,
+          502
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.41567998854598726
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999955_00000_d_0000149.jpg",
+        "group": "9999955",
+        "crop_xyxy": [
+          620,
+          23,
+          1014,
+          417
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.5072627565739799
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999960_00000_d_0000074.jpg",
+        "group": "9999960",
+        "crop_xyxy": [
+          129,
+          565,
+          576,
+          1012
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.19571307222180778
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/0000071_02729_d_0000002.jpg",
+        "group": "0000071",
+        "crop_xyxy": [
+          15,
+          68,
+          335,
+          388
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.3396773307466955
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999981_00000_d_0000063.jpg",
+        "group": "9999981",
+        "crop_xyxy": [
+          917,
+          476,
+          1346,
+          905
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.09372271100789278
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999955_00000_d_0000016.jpg",
+        "group": "9999955",
+        "crop_xyxy": [
+          812,
+          187,
+          1313,
+          688
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.4769917209347015
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/0000195_00409_d_0000128.jpg",
+        "group": "0000195",
+        "crop_xyxy": [
+          1251,
+          33,
+          1885,
+          667
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.40597108266500426
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999994_00000_d_0000081.jpg",
+        "group": "9999994",
+        "crop_xyxy": [
+          382,
+          582,
+          797,
+          997
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.32167216336323395
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999972_00000_d_0000120.jpg",
+        "group": "9999972",
+        "crop_xyxy": [
+          1017,
+          618,
+          1435,
+          1036
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.4664811490525635
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999972_00000_d_0000144.jpg",
+        "group": "9999972",
+        "crop_xyxy": [
+          177,
+          614,
+          595,
+          1032
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.42601604062494636
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999945_00000_d_0000048.jpg",
+        "group": "9999945",
+        "crop_xyxy": [
+          34,
+          3,
+          463,
+          432
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.06609092710080641
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999951_00000_d_0000004.jpg",
+        "group": "9999951",
+        "crop_xyxy": [
+          738,
+          22,
+          1226,
+          510
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.05783274952689328
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999953_00000_d_0000129.jpg",
+        "group": "9999953",
+        "crop_xyxy": [
+          950,
+          271,
+          1341,
+          662
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.1427881079376671
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/0000281_03801_d_0000645.jpg",
+        "group": "0000281",
+        "crop_xyxy": [
+          986,
+          77,
+          1316,
+          407
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.48700850082431724
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999967_00000_d_0000011.jpg",
+        "group": "9999967",
+        "crop_xyxy": [
+          576,
+          583,
+          1029,
+          1036
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.16239065134483338
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999956_00000_d_0000050.jpg",
+        "group": "9999956",
+        "crop_xyxy": [
+          864,
+          15,
+          1369,
+          520
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.3460349427063981
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/0000307_00001_d_0000268.jpg",
+        "group": "0000307",
+        "crop_xyxy": [
+          150,
+          74,
+          476,
+          400
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.44642651310020953
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999960_00000_d_0000079.jpg",
+        "group": "9999960",
+        "crop_xyxy": [
+          245,
+          13,
+          648,
+          416
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.12647288398783763
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999956_00000_d_0000057.jpg",
+        "group": "9999956",
+        "crop_xyxy": [
+          73,
+          373,
+          437,
+          737
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.39306836616053514
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999962_00000_d_0000150.jpg",
+        "group": "9999962",
+        "crop_xyxy": [
+          780,
+          265,
+          1400,
+          885
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.047654429074918764
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999987_00000_d_0000025.jpg",
+        "group": "9999987",
+        "crop_xyxy": [
+          535,
+          90,
+          945,
+          500
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.32691866363669186
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999951_00000_d_0000243.jpg",
+        "group": "9999951",
+        "crop_xyxy": [
+          883,
+          92,
+          1206,
+          415
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.40599107490567266
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999955_00000_d_0000325.jpg",
+        "group": "9999955",
+        "crop_xyxy": [
+          832,
+          273,
+          1339,
+          780
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.4319732886350217
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999956_00000_d_0000018.jpg",
+        "group": "9999956",
+        "crop_xyxy": [
+          972,
+          57,
+          1373,
+          458
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.44861012654171206
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/0000179_00149_d_0000014.jpg",
+        "group": "0000179",
+        "crop_xyxy": [
+          1162,
+          279,
+          1662,
+          779
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.4026569867514955
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999965_00000_d_0000033.jpg",
+        "group": "9999965",
+        "crop_xyxy": [
+          1032,
+          302,
+          1386,
+          656
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.3763727577882038
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999977_00000_d_0000049.jpg",
+        "group": "9999977",
+        "crop_xyxy": [
+          85,
+          163,
+          558,
+          636
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.5059198289124341
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999972_00000_d_0000127.jpg",
+        "group": "9999972",
+        "crop_xyxy": [
+          74,
+          514,
+          558,
+          998
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.4612209097132542
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/0000334_01177_d_0000027.jpg",
+        "group": "0000334",
+        "crop_xyxy": [
+          935,
+          197,
+          1277,
+          539
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.34685827872158925
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/0000334_03921_d_0000041.jpg",
+        "group": "0000334",
+        "crop_xyxy": [
+          15,
+          6,
+          374,
+          365
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.3006533967707269
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/0000258_00301_d_0000070.jpg",
+        "group": "0000258",
+        "crop_xyxy": [
+          944,
+          354,
+          1290,
+          700
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.36658327938480184
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/0000178_00201_d_0000007.jpg",
+        "group": "0000178",
+        "crop_xyxy": [
+          1162,
+          126,
+          1831,
+          795
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.21752351370028689
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999997_00000_d_0000013.jpg",
+        "group": "9999997",
+        "crop_xyxy": [
+          426,
+          19,
+          853,
+          446
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.15879272513413753
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999942_00000_d_0000166.jpg",
+        "group": "9999942",
+        "crop_xyxy": [
+          811,
+          196,
+          1327,
+          712
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.3067480175572688
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999965_00000_d_0000039.jpg",
+        "group": "9999965",
+        "crop_xyxy": [
+          56,
+          40,
+          376,
+          360
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.5680395120266146
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999940_00000_d_0000075.jpg",
+        "group": "9999940",
+        "crop_xyxy": [
+          756,
+          41,
+          1110,
+          395
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.30244667444177886
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999953_00000_d_0000023.jpg",
+        "group": "9999953",
+        "crop_xyxy": [
+          426,
+          18,
+          828,
+          420
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.1872970064779851
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999972_00000_d_0000060.jpg",
+        "group": "9999972",
+        "crop_xyxy": [
+          1085,
+          94,
+          1546,
+          555
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.5299178818594488
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999955_00000_d_0000007.jpg",
+        "group": "9999955",
+        "crop_xyxy": [
+          898,
+          2,
+          1268,
+          372
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.42459981706611505
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999956_00000_d_0000016.jpg",
+        "group": "9999956",
+        "crop_xyxy": [
+          35,
+          157,
+          439,
+          561
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.39476317627504487
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999955_00000_d_0000406.jpg",
+        "group": "9999955",
+        "crop_xyxy": [
+          10,
+          125,
+          380,
+          495
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.296798351412297
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999994_00000_d_0000080.jpg",
+        "group": "9999994",
+        "crop_xyxy": [
+          207,
+          86,
+          614,
+          493
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.12989109220738404
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999987_00000_d_0000062.jpg",
+        "group": "9999987",
+        "crop_xyxy": [
+          89,
+          557,
+          517,
+          985
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.4872266362696346
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999966_00000_d_0000065.jpg",
+        "group": "9999966",
+        "crop_xyxy": [
+          730,
+          59,
+          1206,
+          535
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.33582777087131865
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999982_00000_d_0000011.jpg",
+        "group": "9999982",
+        "crop_xyxy": [
+          67,
+          523,
+          529,
+          985
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.4553214052985113
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999972_00000_d_0000125.jpg",
+        "group": "9999972",
+        "crop_xyxy": [
+          105,
+          546,
+          634,
+          1075
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.2914559893849324
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999945_00000_d_0000025.jpg",
+        "group": "9999945",
+        "crop_xyxy": [
+          824,
+          281,
+          1367,
+          824
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.07163626994755627
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999955_00000_d_0000296.jpg",
+        "group": "9999955",
+        "crop_xyxy": [
+          1028,
+          275,
+          1365,
+          612
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.20702016719343794
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999977_00000_d_0000083.jpg",
+        "group": "9999977",
+        "crop_xyxy": [
+          1096,
+          513,
+          1511,
+          928
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.5231657224725853
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/0000109_00606_d_0000062.jpg",
+        "group": "0000109",
+        "crop_xyxy": [
+          1213,
+          214,
+          1691,
+          692
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.06384276068819891
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999953_00000_d_0000195.jpg",
+        "group": "9999953",
+        "crop_xyxy": [
+          357,
+          14,
+          762,
+          419
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.20316649748225413
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999945_00000_d_0000066.jpg",
+        "group": "9999945",
+        "crop_xyxy": [
+          156,
+          53,
+          711,
+          608
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.1501634110703227
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999956_00000_d_0000001.jpg",
+        "group": "9999956",
+        "crop_xyxy": [
+          896,
+          265,
+          1248,
+          617
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.4012698047643207
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999994_00000_d_0000064.jpg",
+        "group": "9999994",
+        "crop_xyxy": [
+          96,
+          46,
+          567,
+          517
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.12615467955920076
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999955_00000_d_0000020.jpg",
+        "group": "9999955",
+        "crop_xyxy": [
+          109,
+          431,
+          454,
+          776
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.4209621949010085
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999951_00000_d_0000144.jpg",
+        "group": "9999951",
+        "crop_xyxy": [
+          813,
+          25,
+          1181,
+          393
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.3466549144351251
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999974_00000_d_0000045.jpg",
+        "group": "9999974",
+        "crop_xyxy": [
+          141,
+          111,
+          590,
+          560
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.27709090748788445
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999951_00000_d_0000332.jpg",
+        "group": "9999951",
+        "crop_xyxy": [
+          598,
+          236,
+          939,
+          577
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.3067314745688555
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999951_00000_d_0000269.jpg",
+        "group": "9999951",
+        "crop_xyxy": [
+          140,
+          191,
+          467,
+          518
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.13327736405834018
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999951_00000_d_0000104.jpg",
+        "group": "9999951",
+        "crop_xyxy": [
+          1025,
+          407,
+          1358,
+          740
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.2999242592045761
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999975_00000_d_0000004.jpg",
+        "group": "9999975",
+        "crop_xyxy": [
+          89,
+          537,
+          564,
+          1012
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.2204895976036858
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999982_00000_d_0000200.jpg",
+        "group": "9999982",
+        "crop_xyxy": [
+          871,
+          558,
+          1282,
+          969
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.4614606629441479
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999977_00000_d_0000002.jpg",
+        "group": "9999977",
+        "crop_xyxy": [
+          1380,
+          132,
+          1791,
+          543
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.5320124773600239
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999956_00000_d_0000113.jpg",
+        "group": "9999956",
+        "crop_xyxy": [
+          101,
+          59,
+          425,
+          383
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.29708265997861505
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999999_00227_d_0000096.jpg",
+        "group": "9999999",
+        "crop_xyxy": [
+          15,
+          369,
+          598,
+          952
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.26106622197560664
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999977_00000_d_0000011.jpg",
+        "group": "9999977",
+        "crop_xyxy": [
+          215,
+          516,
+          704,
+          1005
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.5106028007769703
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999982_00000_d_0000052.jpg",
+        "group": "9999982",
+        "crop_xyxy": [
+          659,
+          360,
+          1295,
+          996
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.42509808690883455
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999955_00000_d_0000240.jpg",
+        "group": "9999955",
+        "crop_xyxy": [
+          210,
+          53,
+          566,
+          409
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.45198237571056454
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999937_00000_d_0000076.jpg",
+        "group": "9999937",
+        "crop_xyxy": [
+          249,
+          6,
+          774,
+          531
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.44545640524535823
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999951_00000_d_0000323.jpg",
+        "group": "9999951",
+        "crop_xyxy": [
+          171,
+          41,
+          497,
+          367
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.08482980411358129
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999945_00000_d_0000103.jpg",
+        "group": "9999945",
+        "crop_xyxy": [
+          21,
+          505,
+          546,
+          1030
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.011802465858800458
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999982_00000_d_0000093.jpg",
+        "group": "9999982",
+        "crop_xyxy": [
+          572,
+          367,
+          1222,
+          1017
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.2840456173383101
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999990_00000_d_0000013.jpg",
+        "group": "9999990",
+        "crop_xyxy": [
+          825,
+          272,
+          1317,
+          764
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.20550874584577644
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999953_00000_d_0000034.jpg",
+        "group": "9999953",
+        "crop_xyxy": [
+          277,
+          18,
+          597,
+          338
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.021445903722327447
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999964_00000_d_0000045.jpg",
+        "group": "9999964",
+        "crop_xyxy": [
+          132,
+          291,
+          618,
+          777
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.12999827688682683
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/0000180_01400_d_0000026.jpg",
+        "group": "0000180",
+        "crop_xyxy": [
+          1058,
+          583,
+          1551,
+          1076
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.5318864508932146
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999997_00000_d_0000054.jpg",
+        "group": "9999997",
+        "crop_xyxy": [
+          982,
+          96,
+          1388,
+          502
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.03335538300484137
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/0000331_03201_d_0000857.jpg",
+        "group": "0000331",
+        "crop_xyxy": [
+          30,
+          10,
+          350,
+          330
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.3567381675768951
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999937_00000_d_0000155.jpg",
+        "group": "9999937",
+        "crop_xyxy": [
+          696,
+          31,
+          1106,
+          441
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.4326387558446489
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999937_00000_d_0000075.jpg",
+        "group": "9999937",
+        "crop_xyxy": [
+          195,
+          31,
+          739,
+          575
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.44626772388464
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999951_00000_d_0000130.jpg",
+        "group": "9999951",
+        "crop_xyxy": [
+          951,
+          6,
+          1322,
+          377
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.3839264814264709
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/0000256_00001_d_0000014.jpg",
+        "group": "0000256",
+        "crop_xyxy": [
+          1003,
+          293,
+          1323,
+          613
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.4258440337175022
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999953_00000_d_0000207.jpg",
+        "group": "9999953",
+        "crop_xyxy": [
+          170,
+          454,
+          493,
+          777
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.20144829993986715
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/0000352_04313_d_0000561.jpg",
+        "group": "0000352",
+        "crop_xyxy": [
+          1020,
+          54,
+          1340,
+          374
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.4581728941504163
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999940_00000_d_0000083.jpg",
+        "group": "9999940",
+        "crop_xyxy": [
+          669,
+          400,
+          1035,
+          766
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.401298918226327
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/0000261_03701_d_0000133.jpg",
+        "group": "0000261",
+        "crop_xyxy": [
+          945,
+          2,
+          1281,
+          338
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.42990439803504576
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999977_00000_d_0000055.jpg",
+        "group": "9999977",
+        "crop_xyxy": [
+          130,
+          304,
+          646,
+          820
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.47950942436696803
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999972_00000_d_0000093.jpg",
+        "group": "9999972",
+        "crop_xyxy": [
+          64,
+          536,
+          520,
+          992
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.47469600011528196
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999985_00000_d_0000021.jpg",
+        "group": "9999985",
+        "crop_xyxy": [
+          107,
+          418,
+          509,
+          820
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.46426729486813323
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/0000284_04001_d_0000692.jpg",
+        "group": "0000284",
+        "crop_xyxy": [
+          14,
+          403,
+          592,
+          981
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.45914630468251616
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999982_00000_d_0000130.jpg",
+        "group": "9999982",
+        "crop_xyxy": [
+          44,
+          316,
+          475,
+          747
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.40045663710875834
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999953_00000_d_0000229.jpg",
+        "group": "9999953",
+        "crop_xyxy": [
+          150,
+          54,
+          549,
+          453
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.30685731681636863
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999951_00000_d_0000162.jpg",
+        "group": "9999951",
+        "crop_xyxy": [
+          377,
+          170,
+          697,
+          490
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.20706685301416636
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999955_00000_d_0000429.jpg",
+        "group": "9999955",
+        "crop_xyxy": [
+          890,
+          345,
+          1244,
+          699
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.35421949216810045
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999955_00000_d_0000278.jpg",
+        "group": "9999955",
+        "crop_xyxy": [
+          911,
+          45,
+          1360,
+          494
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.3848226970950839
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999965_00000_d_0000076.jpg",
+        "group": "9999965",
+        "crop_xyxy": [
+          854,
+          119,
+          1276,
+          541
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.5623658193264648
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/0000101_01577_d_0000018.jpg",
+        "group": "0000101",
+        "crop_xyxy": [
+          609,
+          182,
+          929,
+          502
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.3998379250882542
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999955_00000_d_0000246.jpg",
+        "group": "9999955",
+        "crop_xyxy": [
+          1058,
+          45,
+          1400,
+          387
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.3566606163417452
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999997_00000_d_0000039.jpg",
+        "group": "9999997",
+        "crop_xyxy": [
+          632,
+          92,
+          1201,
+          661
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.19439534762606767
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999948_00000_d_0000029.jpg",
+        "group": "9999948",
+        "crop_xyxy": [
+          77,
+          50,
+          575,
+          548
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.13814527124092285
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999940_00000_d_0000060.jpg",
+        "group": "9999940",
+        "crop_xyxy": [
+          679,
+          49,
+          1088,
+          458
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.531837488355726
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999950_00000_d_0000058.jpg",
+        "group": "9999950",
+        "crop_xyxy": [
+          120,
+          227,
+          698,
+          805
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.1801128824470422
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999997_00000_d_0000042.jpg",
+        "group": "9999997",
+        "crop_xyxy": [
+          0,
+          194,
+          441,
+          635
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.1564694046176754
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/0000201_01484_d_0000178.jpg",
+        "group": "0000201",
+        "crop_xyxy": [
+          606,
+          121,
+          926,
+          441
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.16403451817697318
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/0000222_01650_d_0000006.jpg",
+        "group": "0000222",
+        "crop_xyxy": [
+          191,
+          616,
+          643,
+          1068
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.5026604089144642
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999955_00000_d_0000309.jpg",
+        "group": "9999955",
+        "crop_xyxy": [
+          992,
+          419,
+          1338,
+          765
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.49310993010865206
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999951_00000_d_0000057.jpg",
+        "group": "9999951",
+        "crop_xyxy": [
+          216,
+          337,
+          633,
+          754
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.26050191104484577
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999953_00000_d_0000016.jpg",
+        "group": "9999953",
+        "crop_xyxy": [
+          777,
+          274,
+          1212,
+          709
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.15494001458532042
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999942_00000_d_0000048.jpg",
+        "group": "9999942",
+        "crop_xyxy": [
+          9,
+          514,
+          463,
+          968
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.4487668560524256
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999974_00000_d_0000056.jpg",
+        "group": "9999974",
+        "crop_xyxy": [
+          509,
+          53,
+          966,
+          510
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.45170063932381355
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999951_00000_d_0000327.jpg",
+        "group": "9999951",
+        "crop_xyxy": [
+          2,
+          85,
+          455,
+          538
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.04249798224022163
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999972_00000_d_0000155.jpg",
+        "group": "9999972",
+        "crop_xyxy": [
+          1251,
+          290,
+          1718,
+          757
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.1736672181574337
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999977_00000_d_0000048.jpg",
+        "group": "9999977",
+        "crop_xyxy": [
+          75,
+          13,
+          721,
+          659
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.5150083012387803
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/0000195_01040_d_0000131.jpg",
+        "group": "0000195",
+        "crop_xyxy": [
+          51,
+          147,
+          560,
+          656
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.3446873061734101
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999987_00000_d_0000017.jpg",
+        "group": "9999987",
+        "crop_xyxy": [
+          83,
+          18,
+          620,
+          555
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.28141883582972227
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999953_00000_d_0000189.jpg",
+        "group": "9999953",
+        "crop_xyxy": [
+          336,
+          122,
+          775,
+          561
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.23920069944794314
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999955_00000_d_0000094.jpg",
+        "group": "9999955",
+        "crop_xyxy": [
+          1022,
+          241,
+          1360,
+          579
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.2320738568420435
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/0000257_04249_d_0000066.jpg",
+        "group": "0000257",
+        "crop_xyxy": [
+          723,
+          248,
+          1236,
+          761
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.41452023826084594
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999956_00000_d_0000077.jpg",
+        "group": "9999956",
+        "crop_xyxy": [
+          947,
+          145,
+          1327,
+          525
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.5234832024187575
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999998_00349_d_0000301.jpg",
+        "group": "9999998",
+        "crop_xyxy": [
+          1105,
+          661,
+          1742,
+          1298
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.4053395221344464
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/9999956_00000_d_0000007.jpg",
+        "group": "9999956",
+        "crop_xyxy": [
+          81,
+          332,
+          516,
+          767
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.462927364449389
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/0000331_00201_d_0000842.jpg",
+        "group": "0000331",
+        "crop_xyxy": [
+          102,
+          420,
+          436,
+          754
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.20678156988470936
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-train/images/0000209_00609_d_0000221.jpg",
+        "group": "0000209",
+        "crop_xyxy": [
+          968,
+          110,
+          1675,
+          817
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.41410921772624876
+      }
+    ],
+    "urban_val": [
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-val/images/0000356_02353_d_0000641.jpg",
+        "group": "0000356",
+        "crop_xyxy": [
+          60,
+          389,
+          412,
+          741
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.10582065965948816
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-val/images/0000333_01765_d_0000010.jpg",
+        "group": "0000333",
+        "crop_xyxy": [
+          954,
+          166,
+          1274,
+          486
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.296896848931134
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-val/images/0000333_02745_d_0000015.jpg",
+        "group": "0000333",
+        "crop_xyxy": [
+          780,
+          388,
+          1110,
+          718
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.33024305444556123
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-val/images/0000356_04117_d_0000650.jpg",
+        "group": "0000356",
+        "crop_xyxy": [
+          20,
+          285,
+          345,
+          610
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.08611335473909822
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-val/images/0000356_03921_d_0000649.jpg",
+        "group": "0000356",
+        "crop_xyxy": [
+          123,
+          312,
+          465,
+          654
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.10038434690130976
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-val/images/0000024_01000_d_0000014.jpg",
+        "group": "0000024",
+        "crop_xyxy": [
+          22,
+          172,
+          381,
+          531
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.2576794980897061
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-val/images/0000215_00447_d_0000257.jpg",
+        "group": "0000215",
+        "crop_xyxy": [
+          947,
+          371,
+          1335,
+          759
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.21776518579325901
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-val/images/0000330_04001_d_0000820.jpg",
+        "group": "0000330",
+        "crop_xyxy": [
+          98,
+          376,
+          418,
+          696
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.02085165163347556
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-val/images/0000301_01001_d_0000161.jpg",
+        "group": "0000301",
+        "crop_xyxy": [
+          134,
+          363,
+          490,
+          719
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.05806257134938801
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-val/images/0000117_01326_d_0000088.jpg",
+        "group": "0000117",
+        "crop_xyxy": [
+          1038,
+          427,
+          1358,
+          747
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.018098940583826488
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-val/images/0000330_02801_d_0000814.jpg",
+        "group": "0000330",
+        "crop_xyxy": [
+          19,
+          384,
+          400,
+          765
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.10011409716870584
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-val/images/0000356_02941_d_0000644.jpg",
+        "group": "0000356",
+        "crop_xyxy": [
+          599,
+          286,
+          991,
+          678
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.12001362298495592
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-val/images/0000356_03333_d_0000646.jpg",
+        "group": "0000356",
+        "crop_xyxy": [
+          532,
+          335,
+          852,
+          655
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.08071421090254241
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-val/images/0000330_03001_d_0000815.jpg",
+        "group": "0000330",
+        "crop_xyxy": [
+          535,
+          387,
+          860,
+          712
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.04076963289759028
+      },
+      {
+        "source": "datasets/VisDrone/VisDrone2019-DET-val/images/0000280_00601_d_0000615.jpg",
+        "group": "0000280",
+        "crop_xyxy": [
+          269,
+          442,
+          589,
+          762
+        ],
+        "all_annotation_overlap": 0,
+        "score": 0.1167114644817679
+      }
+    ],
+    "lab_negatives": [
+      {
+        "frame": 0,
+        "crop_xyxy": [
+          200,
+          900,
+          600,
+          1080
+        ],
+        "image": "lab_negative_f0000_c0.jpg"
+      },
+      {
+        "frame": 0,
+        "crop_xyxy": [
+          800,
+          900,
+          1200,
+          1080
+        ],
+        "image": "lab_negative_f0000_c1.jpg"
+      },
+      {
+        "frame": 0,
+        "crop_xyxy": [
+          1420,
+          900,
+          1820,
+          1080
+        ],
+        "image": "lab_negative_f0000_c2.jpg"
+      },
+      {
+        "frame": 30,
+        "crop_xyxy": [
+          200,
+          900,
+          600,
+          1080
+        ],
+        "image": "lab_negative_f0030_c0.jpg"
+      },
+      {
+        "frame": 30,
+        "crop_xyxy": [
+          800,
+          900,
+          1200,
+          1080
+        ],
+        "image": "lab_negative_f0030_c1.jpg"
+      },
+      {
+        "frame": 30,
+        "crop_xyxy": [
+          1420,
+          900,
+          1820,
+          1080
+        ],
+        "image": "lab_negative_f0030_c2.jpg"
+      },
+      {
+        "frame": 60,
+        "crop_xyxy": [
+          200,
+          900,
+          600,
+          1080
+        ],
+        "image": "lab_negative_f0060_c0.jpg"
+      },
+      {
+        "frame": 60,
+        "crop_xyxy": [
+          800,
+          900,
+          1200,
+          1080
+        ],
+        "image": "lab_negative_f0060_c1.jpg"
+      },
+      {
+        "frame": 60,
+        "crop_xyxy": [
+          1420,
+          900,
+          1820,
+          1080
+        ],
+        "image": "lab_negative_f0060_c2.jpg"
+      },
+      {
+        "frame": 90,
+        "crop_xyxy": [
+          200,
+          900,
+          600,
+          1080
+        ],
+        "image": "lab_negative_f0090_c0.jpg"
+      },
+      {
+        "frame": 90,
+        "crop_xyxy": [
+          800,
+          900,
+          1200,
+          1080
+        ],
+        "image": "lab_negative_f0090_c1.jpg"
+      },
+      {
+        "frame": 90,
+        "crop_xyxy": [
+          1420,
+          900,
+          1820,
+          1080
+        ],
+        "image": "lab_negative_f0090_c2.jpg"
+      },
+      {
+        "frame": 120,
+        "crop_xyxy": [
+          200,
+          900,
+          600,
+          1080
+        ],
+        "image": "lab_negative_f0120_c0.jpg"
+      },
+      {
+        "frame": 120,
+        "crop_xyxy": [
+          800,
+          900,
+          1200,
+          1080
+        ],
+        "image": "lab_negative_f0120_c1.jpg"
+      },
+      {
+        "frame": 120,
+        "crop_xyxy": [
+          1420,
+          900,
+          1820,
+          1080
+        ],
+        "image": "lab_negative_f0120_c2.jpg"
+      },
+      {
+        "frame": 150,
+        "crop_xyxy": [
+          200,
+          900,
+          600,
+          1080
+        ],
+        "image": "lab_negative_f0150_c0.jpg"
+      },
+      {
+        "frame": 150,
+        "crop_xyxy": [
+          800,
+          900,
+          1200,
+          1080
+        ],
+        "image": "lab_negative_f0150_c1.jpg"
+      },
+      {
+        "frame": 150,
+        "crop_xyxy": [
+          1420,
+          900,
+          1820,
+          1080
+        ],
+        "image": "lab_negative_f0150_c2.jpg"
+      },
+      {
+        "frame": 180,
+        "crop_xyxy": [
+          200,
+          900,
+          600,
+          1080
+        ],
+        "image": "lab_negative_f0180_c0.jpg"
+      },
+      {
+        "frame": 180,
+        "crop_xyxy": [
+          800,
+          900,
+          1200,
+          1080
+        ],
+        "image": "lab_negative_f0180_c1.jpg"
+      },
+      {
+        "frame": 180,
+        "crop_xyxy": [
+          1420,
+          900,
+          1820,
+          1080
+        ],
+        "image": "lab_negative_f0180_c2.jpg"
+      },
+      {
+        "frame": 210,
+        "crop_xyxy": [
+          200,
+          900,
+          600,
+          1080
+        ],
+        "image": "lab_negative_f0210_c0.jpg"
+      },
+      {
+        "frame": 210,
+        "crop_xyxy": [
+          800,
+          900,
+          1200,
+          1080
+        ],
+        "image": "lab_negative_f0210_c1.jpg"
+      },
+      {
+        "frame": 210,
+        "crop_xyxy": [
+          1420,
+          900,
+          1820,
+          1080
+        ],
+        "image": "lab_negative_f0210_c2.jpg"
+      },
+      {
+        "frame": 240,
+        "crop_xyxy": [
+          200,
+          900,
+          600,
+          1080
+        ],
+        "image": "lab_negative_f0240_c0.jpg"
+      },
+      {
+        "frame": 240,
+        "crop_xyxy": [
+          800,
+          900,
+          1200,
+          1080
+        ],
+        "image": "lab_negative_f0240_c1.jpg"
+      },
+      {
+        "frame": 240,
+        "crop_xyxy": [
+          1420,
+          900,
+          1820,
+          1080
+        ],
+        "image": "lab_negative_f0240_c2.jpg"
+      },
+      {
+        "frame": 270,
+        "crop_xyxy": [
+          200,
+          900,
+          600,
+          1080
+        ],
+        "image": "lab_negative_f0270_c0.jpg"
+      },
+      {
+        "frame": 270,
+        "crop_xyxy": [
+          800,
+          900,
+          1200,
+          1080
+        ],
+        "image": "lab_negative_f0270_c1.jpg"
+      },
+      {
+        "frame": 270,
+        "crop_xyxy": [
+          1420,
+          900,
+          1820,
+          1080
+        ],
+        "image": "lab_negative_f0270_c2.jpg"
+      },
+      {
+        "frame": 300,
+        "crop_xyxy": [
+          200,
+          900,
+          600,
+          1080
+        ],
+        "image": "lab_negative_f0300_c0.jpg"
+      },
+      {
+        "frame": 300,
+        "crop_xyxy": [
+          800,
+          900,
+          1200,
+          1080
+        ],
+        "image": "lab_negative_f0300_c1.jpg"
+      },
+      {
+        "frame": 300,
+        "crop_xyxy": [
+          1420,
+          900,
+          1820,
+          1080
+        ],
+        "image": "lab_negative_f0300_c2.jpg"
+      },
+      {
+        "frame": 330,
+        "crop_xyxy": [
+          200,
+          900,
+          600,
+          1080
+        ],
+        "image": "lab_negative_f0330_c0.jpg"
+      },
+      {
+        "frame": 330,
+        "crop_xyxy": [
+          800,
+          900,
+          1200,
+          1080
+        ],
+        "image": "lab_negative_f0330_c1.jpg"
+      },
+      {
+        "frame": 330,
+        "crop_xyxy": [
+          1420,
+          900,
+          1820,
+          1080
+        ],
+        "image": "lab_negative_f0330_c2.jpg"
+      },
+      {
+        "frame": 360,
+        "crop_xyxy": [
+          200,
+          900,
+          600,
+          1080
+        ],
+        "image": "lab_negative_f0360_c0.jpg"
+      },
+      {
+        "frame": 360,
+        "crop_xyxy": [
+          800,
+          900,
+          1200,
+          1080
+        ],
+        "image": "lab_negative_f0360_c1.jpg"
+      },
+      {
+        "frame": 360,
+        "crop_xyxy": [
+          1420,
+          900,
+          1820,
+          1080
+        ],
+        "image": "lab_negative_f0360_c2.jpg"
+      },
+      {
+        "frame": 390,
+        "crop_xyxy": [
+          200,
+          900,
+          600,
+          1080
+        ],
+        "image": "lab_negative_f0390_c0.jpg"
+      },
+      {
+        "frame": 390,
+        "crop_xyxy": [
+          800,
+          900,
+          1200,
+          1080
+        ],
+        "image": "lab_negative_f0390_c1.jpg"
+      },
+      {
+        "frame": 390,
+        "crop_xyxy": [
+          1420,
+          900,
+          1820,
+          1080
+        ],
+        "image": "lab_negative_f0390_c2.jpg"
+      },
+      {
+        "frame": 420,
+        "crop_xyxy": [
+          200,
+          900,
+          600,
+          1080
+        ],
+        "image": "lab_negative_f0420_c0.jpg"
+      },
+      {
+        "frame": 420,
+        "crop_xyxy": [
+          800,
+          900,
+          1200,
+          1080
+        ],
+        "image": "lab_negative_f0420_c1.jpg"
+      },
+      {
+        "frame": 420,
+        "crop_xyxy": [
+          1420,
+          900,
+          1820,
+          1080
+        ],
+        "image": "lab_negative_f0420_c2.jpg"
+      },
+      {
+        "frame": 450,
+        "crop_xyxy": [
+          200,
+          900,
+          600,
+          1080
+        ],
+        "image": "lab_negative_f0450_c0.jpg"
+      },
+      {
+        "frame": 450,
+        "crop_xyxy": [
+          800,
+          900,
+          1200,
+          1080
+        ],
+        "image": "lab_negative_f0450_c1.jpg"
+      },
+      {
+        "frame": 450,
+        "crop_xyxy": [
+          1420,
+          900,
+          1820,
+          1080
+        ],
+        "image": "lab_negative_f0450_c2.jpg"
+      },
+      {
+        "frame": 480,
+        "crop_xyxy": [
+          200,
+          900,
+          600,
+          1080
+        ],
+        "image": "lab_negative_f0480_c0.jpg"
+      },
+      {
+        "frame": 480,
+        "crop_xyxy": [
+          800,
+          900,
+          1200,
+          1080
+        ],
+        "image": "lab_negative_f0480_c1.jpg"
+      },
+      {
+        "frame": 480,
+        "crop_xyxy": [
+          1420,
+          900,
+          1820,
+          1080
+        ],
+        "image": "lab_negative_f0480_c2.jpg"
+      },
+      {
+        "frame": 510,
+        "crop_xyxy": [
+          200,
+          900,
+          600,
+          1080
+        ],
+        "image": "lab_negative_f0510_c0.jpg"
+      },
+      {
+        "frame": 510,
+        "crop_xyxy": [
+          800,
+          900,
+          1200,
+          1080
+        ],
+        "image": "lab_negative_f0510_c1.jpg"
+      },
+      {
+        "frame": 510,
+        "crop_xyxy": [
+          1420,
+          900,
+          1820,
+          1080
+        ],
+        "image": "lab_negative_f0510_c2.jpg"
+      },
+      {
+        "frame": 540,
+        "crop_xyxy": [
+          200,
+          900,
+          600,
+          1080
+        ],
+        "image": "lab_negative_f0540_c0.jpg"
+      },
+      {
+        "frame": 540,
+        "crop_xyxy": [
+          800,
+          900,
+          1200,
+          1080
+        ],
+        "image": "lab_negative_f0540_c1.jpg"
+      },
+      {
+        "frame": 540,
+        "crop_xyxy": [
+          1420,
+          900,
+          1820,
+          1080
+        ],
+        "image": "lab_negative_f0540_c2.jpg"
+      },
+      {
+        "frame": 570,
+        "crop_xyxy": [
+          200,
+          900,
+          600,
+          1080
+        ],
+        "image": "lab_negative_f0570_c0.jpg"
+      },
+      {
+        "frame": 570,
+        "crop_xyxy": [
+          800,
+          900,
+          1200,
+          1080
+        ],
+        "image": "lab_negative_f0570_c1.jpg"
+      },
+      {
+        "frame": 570,
+        "crop_xyxy": [
+          1420,
+          900,
+          1820,
+          1080
+        ],
+        "image": "lab_negative_f0570_c2.jpg"
+      },
+      {
+        "frame": 600,
+        "crop_xyxy": [
+          200,
+          900,
+          600,
+          1080
+        ],
+        "image": "lab_negative_f0600_c0.jpg"
+      },
+      {
+        "frame": 600,
+        "crop_xyxy": [
+          800,
+          900,
+          1200,
+          1080
+        ],
+        "image": "lab_negative_f0600_c1.jpg"
+      },
+      {
+        "frame": 600,
+        "crop_xyxy": [
+          1420,
+          900,
+          1820,
+          1080
+        ],
+        "image": "lab_negative_f0600_c2.jpg"
+      }
+    ],
+    "lab_positives": {
+      "class_authority": "User explicitly supplied vehicle picture order; physical identity follows camera reversal.",
+      "canonical_order": [
+        1,
+        1,
+        2,
+        4,
+        3
+      ],
+      "training_frames": [
+        {
+          "frame": 110,
+          "anchor": 110,
+          "boxes": [
+            {
+              "class_id": 1,
+              "xyxy": [
+                819,
+                458,
+                856,
+                537
+              ]
+            },
+            {
+              "class_id": 1,
+              "xyxy": [
+                879,
+                460,
+                916,
+                540
+              ]
+            },
+            {
+              "class_id": 2,
+              "xyxy": [
+                940,
+                448,
+                984,
+                587
+              ]
+            },
+            {
+              "class_id": 4,
+              "xyxy": [
+                1005,
+                445,
+                1067,
+                584
+              ]
+            },
+            {
+              "class_id": 3,
+              "xyxy": [
+                1075,
+                457,
+                1125,
+                577
+              ]
+            }
+          ],
+          "matching": {
+            "manual_anchor": true
+          }
+        },
+        {
+          "frame": 320,
+          "anchor": 320,
+          "boxes": [
+            {
+              "class_id": 3,
+              "xyxy": [
+                800,
+                305,
+                846,
+                421
+              ]
+            },
+            {
+              "class_id": 4,
+              "xyxy": [
+                859,
+                295,
+                914,
+                431
+              ]
+            },
+            {
+              "class_id": 2,
+              "xyxy": [
+                940,
+                289,
+                980,
+                424
+              ]
+            },
+            {
+              "class_id": 1,
+              "xyxy": [
+                1003,
+                332,
+                1041,
+                409
+              ]
+            },
+            {
+              "class_id": 1,
+              "xyxy": [
+                1058,
+                331,
+                1101,
+                408
+              ]
+            }
+          ],
+          "matching": {
+            "manual_anchor": true
+          }
+        },
+        {
+          "frame": 530,
+          "anchor": 530,
+          "boxes": [
+            {
+              "class_id": 1,
+              "xyxy": [
+                780,
+                578,
+                823,
+                661
+              ]
+            },
+            {
+              "class_id": 1,
+              "xyxy": [
+                842,
+                579,
+                882,
+                662
+              ]
+            },
+            {
+              "class_id": 2,
+              "xyxy": [
+                906,
+                567,
+                950,
+                706
+              ]
+            },
+            {
+              "class_id": 4,
+              "xyxy": [
+                971,
+                560,
+                1030,
+                702
+              ]
+            },
+            {
+              "class_id": 3,
+              "xyxy": [
+                1038,
+                571,
+                1089,
+                691
+              ]
+            }
+          ],
+          "matching": {
+            "manual_anchor": true
+          }
+        }
+      ],
+      "added_training_images": 48,
+      "review_status": "accepted_after_visual_inspection",
+      "independent_test": false
+    }
+  },
+  "excluded_v4_backgrounds": "<=3% object overlap is not strict enough for V5 negatives",
+  "video_policy": "Only manually reviewed lower/background crops; no pseudo-labels. Video reuse is not an independent test.",
+  "splits": {
+    "train": {
+      "images": 2377,
+      "negative_images": 591,
+      "class_instances": {
+        "3": 478,
+        "2": 538,
+        "4": 588,
+        "1": 536,
+        "0": 3817
+      }
+    },
+    "val": {
+      "images": 135,
+      "negative_images": 24,
+      "class_instances": {
+        "2": 29,
+        "0": 418,
+        "1": 30,
+        "3": 28,
+        "4": 32
+      }
+    },
+    "test": {
+      "images": 120,
+      "negative_images": 11,
+      "class_instances": {
+        "0": 374,
+        "4": 28,
+        "2": 32,
+        "3": 24,
+        "1": 30
+      }
+    }
+  },
+  "cross_split_hash_overlap": {
+    "train_val": 0,
+    "train_test": 0,
+    "val_test": 0
+  },
+  "inherited_group_audits": {
+    "reference_group_audit": {
+      "background_groups": 30,
+      "cross_split_groups": 0
+    },
+    "simulator_seed_audit": {
+      "episode_seeds": 54,
+      "cross_split_seeds": 0,
+      "lighting_samples": {
+        "flat_ambient": 180,
+        "soft_shadow": 180,
+        "strong_shadow": 180
+      }
+    }
+  },
+  "lab_negative_review": {
+    "reviewed": true,
+    "samples": 63,
+    "review_sheets": [
+      "lab_review_0.jpg",
+      "lab_review_1.jpg",
+      "lab_review_2.jpg"
+    ],
+    "finding": "Clothing, chairs, furniture and ordinary background only; no floor vehicle pictures in any sampled crop."
+  }
+}

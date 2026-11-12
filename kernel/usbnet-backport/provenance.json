@@ -1,0 +1,12 @@
+{
+  "base": "NVIDIA Jetson Linux r36.5.0; Linux 5.15.185-tegra",
+  "kernel_exclusive": "5.15.185-tegra",
+  "upstream_stable_commits": [
+    "e2a4325ce21a524845f7d7ccfdf3f7d68c47e987",
+    "1946a6a9bdebbbea9f1e6dac644ee22b4f91734f",
+    "43005002b60ef3424719ecda16d124714b45da3b",
+    "65d04291adf7c59338f87aab9c6fe0bfa9993e64"
+  ],
+  "base_sha256": "affe691904908b97c05663bfd012a26b3863853a627189653e7d462565758aea",
+  "backport_sha256": "6e2f7cb6707e5eae54849f8e68f20827e5e6de99974662f56adcf16b6e430427"
+}

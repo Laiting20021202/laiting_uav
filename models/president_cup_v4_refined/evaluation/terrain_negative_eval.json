@@ -1,0 +1,47 @@
+{
+  "model": "/home/david/Desktop/laiting/\u7121\u4eba\u6a5f\u6c7a\u8cfd/\u6a21\u64ec\u8a13\u7df4/models/president_cup_v4_refined/best.pt",
+  "images": 120,
+  "imgsz": 1280,
+  "known_target_count": 0,
+  "thresholds": {
+    "0.05": {
+      "images_with_false_detection": 2,
+      "false_boxes": 3,
+      "boxes_by_class": {
+        "civilian_vehicle": 2,
+        "amphibious_assault_vehicle": 1
+      }
+    },
+    "0.1": {
+      "images_with_false_detection": 1,
+      "false_boxes": 2,
+      "boxes_by_class": {
+        "civilian_vehicle": 2
+      }
+    },
+    "0.2": {
+      "images_with_false_detection": 0,
+      "false_boxes": 0,
+      "boxes_by_class": {}
+    },
+    "0.3": {
+      "images_with_false_detection": 0,
+      "false_boxes": 0,
+      "boxes_by_class": {}
+    },
+    "0.45": {
+      "images_with_false_detection": 0,
+      "false_boxes": 0,
+      "boxes_by_class": {}
+    },
+    "0.6": {
+      "images_with_false_detection": 0,
+      "false_boxes": 0,
+      "boxes_by_class": {}
+    }
+  },
+  "maximum_score": {
+    "max": 0.16805662214756012,
+    "mean": 0.002073146464924018
+  }
+}
