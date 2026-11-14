@@ -1,0 +1,106 @@
+{
+  "host": {
+    "/uav/camera/image_raw": {
+      "expected": 34,
+      "received": 34,
+      "invalid_count": 0
+    },
+    "/uav/imu/data_raw": {
+      "expected": 222,
+      "received": 218,
+      "invalid_count": 0
+    },
+    "/uav/attitude": {
+      "expected": 221,
+      "received": 217,
+      "invalid_count": 0
+    },
+    "/uav/gps/fix": {
+      "expected": 56,
+      "received": 56,
+      "invalid_count": 56
+    },
+    "/uav/altitude/relative_home": {
+      "expected": 110,
+      "received": 108,
+      "invalid_count": 0
+    },
+    "/uav/altitude/msl": {
+      "expected": 110,
+      "received": 108,
+      "invalid_count": 0
+    },
+    "/uav/velocity/enu": {
+      "expected": 111,
+      "received": 109,
+      "invalid_count": 0
+    },
+    "/uav/battery/state": {
+      "expected": 23,
+      "received": 23,
+      "invalid_count": 0
+    },
+    "/uav/imu/mag": {
+      "expected": 222,
+      "received": 218,
+      "invalid_count": 0
+    },
+    "/uav/barometer/pressure": {
+      "expected": 56,
+      "received": 56,
+      "invalid_count": 0
+    }
+  },
+  "container": {
+    "/uav/camera/image_raw": {
+      "expected": 34,
+      "received": 34,
+      "invalid_count": 0
+    },
+    "/uav/imu/data_raw": {
+      "expected": 222,
+      "received": 221,
+      "invalid_count": 0
+    },
+    "/uav/attitude": {
+      "expected": 221,
+      "received": 220,
+      "invalid_count": 0
+    },
+    "/uav/gps/fix": {
+      "expected": 56,
+      "received": 56,
+      "invalid_count": 56
+    },
+    "/uav/altitude/relative_home": {
+      "expected": 110,
+      "received": 110,
+      "invalid_count": 0
+    },
+    "/uav/altitude/msl": {
+      "expected": 110,
+      "received": 110,
+      "invalid_count": 0
+    },
+    "/uav/velocity/enu": {
+      "expected": 111,
+      "received": 111,
+      "invalid_count": 0
+    },
+    "/uav/battery/state": {
+      "expected": 23,
+      "received": 23,
+      "invalid_count": 0
+    },
+    "/uav/imu/mag": {
+      "expected": 222,
+      "received": 220,
+      "invalid_count": 0
+    },
+    "/uav/barometer/pressure": {
+      "expected": 56,
+      "received": 56,
+      "invalid_count": 0
+    }
+  }
+}

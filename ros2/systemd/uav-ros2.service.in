@@ -1,0 +1,17 @@
+[Unit]
+Description=UAV ROS 2 Humble dashboard and rosbag2 (Docker Compose)
+Wants=uav-v2.service
+After=uav-v2.service
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+WorkingDirectory=@ROOT@
+ExecStart=/usr/bin/docker compose -f @ROOT@/ros2/compose.yaml up --no-build --pull never --abort-on-container-exit
+ExecStop=/usr/bin/docker compose -f @ROOT@/ros2/compose.yaml stop -t 180
+Restart=always
+RestartSec=10
+TimeoutStopSec=200
+
+[Install]
+WantedBy=default.target

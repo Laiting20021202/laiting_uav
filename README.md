@@ -4,6 +4,14 @@
 
 **辨識到目標只寫入紀錄，不發送返航、解鎖、航點或飛行模式指令。** 唯一送往飛控的命令是要求遙測訊息更新率。
 
+Docker 使用情況、重要程式、健康檢查及開機失敗後的手動啟動指令，見[系統操作與故障排查](docs/OPERATIONS.md)。
+
+## ROS 2 Humble 與一鍵錄製
+
+新增 Docker 管理的十個 ROS topics、實際訂閱監測、Web GUI、rosbag2、驗證與 ZIP 歷史下載。登入既有網站後開啟 **https://uav.laiting1202.com/ros2/**，或使用區網 `http://<Jetson IP>:8090/`（原帳號）。原有宿主機服務繼續負責相機、AP6、GPU 辨識與網路恢復。
+
+建置、開機服務、topic 單位／座標／有效性、磁碟管理與還原方式見 [ROS 2 使用與維護](ros2/README.md)；實際通過、資料缺少及未驗證部分見 [驗收紀錄](ros2/VALIDATION.md)。GPS 無有效定位、相機離線等情況會明確顯示，部分資料的 ZIP 不會標為完整。
+
 ## 開始使用
 
 本機已建立虛擬環境、兩個網頁使用者 `laiting`、`hrc`，密碼依本次需求設定。密碼只以加鹽 scrypt 雜湊存在 `config/users.json`，不寫入文件或程式碼。

@@ -80,6 +80,8 @@ class Telemetry:
         self.rate_requests = 0
         self.next_heartbeat_at = 0
         self.last_transport = {}
+        self.raw_observer = None
+        self.message_rates = dict(MESSAGE_RATES)
 
     def start(self):
         if self.thread and self.thread.is_alive():
@@ -141,6 +143,11 @@ class Telemetry:
         if msg.get_srcSystem() != self.system or msg.get_srcComponent() != self.component:
             return
         kind = msg.get_type()
+        if self.raw_observer:
+            try:
+                self.raw_observer(msg, time.time_ns())
+            except Exception:
+                log.exception('ROS read-only tap failed; continuing existing telemetry')
         if kind == "DISTANCE_SENSOR" and msg.orientation != 25:
             return
         with self.lock:
@@ -195,10 +202,10 @@ class Telemetry:
                                    "component_id": component, "device_id": device}
 
     @staticmethod
-    def request_rate(conn, mavutil, name):
+    def request_rate(conn, mavutil, name, rate=None):
         conn.mav.command_long_send(conn.target_system, conn.target_component,
             mavutil.mavlink.MAV_CMD_SET_MESSAGE_INTERVAL, 0,
-            getattr(mav2, "MAVLINK_MSG_ID_" + name), 1000000 // MESSAGE_RATES[name],
+            getattr(mav2, "MAVLINK_MSG_ID_" + name), int(1000000 / (rate or MESSAGE_RATES[name])),
             0, 0, 0, 0, 0)
         # mavserial.write swallows serial exceptions and sets portdead.
         if getattr(conn, "portdead", False):
@@ -226,7 +233,7 @@ class Telemetry:
             if name is None:
                 return
         self._check_cancelled()
-        self.request_rate(conn, mavutil, name)
+        self.request_rate(conn, mavutil, name, self.message_rates[name])
         with self.lock:
             self.rate_sent_at[name] = now
             self.rate_requests += 1
@@ -286,7 +293,7 @@ class Telemetry:
                         self.data = {"connected": True, "error": None}
                         self.times = {}
                         self.gimbal_source = None
-                        self.rate_queue = list(MESSAGE_RATES)
+                        self.rate_queue = list(self.message_rates)
                         self.rate_sent_at.clear()
                         self.next_rate_at = 0
                         self.rate_requests = 0

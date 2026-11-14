@@ -1,0 +1,243 @@
+{
+  "boot_id": "06b9b6e8-5cb3-4bab-91af-804edbb76bcc",
+  "flight": {
+    "connected": true,
+    "error": null,
+    "system_id": 1,
+    "armed": false,
+    "flight_mode": "LOITER",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "altitude_m": 0.12,
+    "relative_altitude_m": 10.842,
+    "vx": 0.0,
+    "vy": 0.0,
+    "vz": 0.0,
+    "heading_deg": 66.37,
+    "gimbal": {
+      "q": [
+        0.7071571350097656,
+        -0.008506608195602894,
+        -0.7069540023803711,
+        -0.008509032428264618
+      ],
+      "flags": 44,
+      "failure_flags": 0,
+      "delta_yaw": null,
+      "component_id": 1,
+      "device_id": 1
+    },
+    "roll": -0.10940975695848465,
+    "pitch": -0.1836479753255844,
+    "yaw": 1.1584080457687378,
+    "voltage_v": 22.0,
+    "current_a": 0.4,
+    "battery_pct": 0,
+    "groundspeed": 0.0008182043675333261,
+    "airspeed": 0.0,
+    "climb": -0.0036544448230415583,
+    "throttle": 0.0,
+    "fix_type": 1,
+    "satellites": 0,
+    "hdop": 0.0,
+    "message": "PreArm: GPS 1: Bad fix",
+    "ages_s": {
+      "HEARTBEAT": 0.171,
+      "GLOBAL_POSITION_INT": 0.05,
+      "GIMBAL_DEVICE_ATTITUDE_STATUS": 0.05,
+      "ATTITUDE": 0.05,
+      "SCALED_IMU": 0.049,
+      "SYS_STATUS": 0.162,
+      "VFR_HUD": 0.162,
+      "SCALED_PRESSURE": 0.05,
+      "GPS_RAW_INT": 0.05,
+      "COMMAND_ACK": 1215.63,
+      "TIMESYNC": 3.799,
+      "STATUSTEXT": 7.321,
+      "PARAM_VALUE": 15.323
+    },
+    "phase": "connected",
+    "attempts": 1,
+    "connections": 1,
+    "last_connected": 1794458295.455621,
+    "last_message_at": 1794459512.9308763,
+    "connection": "/dev/serial/by-id/usb-ALIGN_AP6-M490-ds_330032000D51333331333534-if00",
+    "last_error": null,
+    "rate_requests": 9,
+    "transport": {
+      "bytes_received": 3665042,
+      "packets_received": 91623,
+      "receive_errors": 2,
+      "packets_sent": 1196
+    },
+    "missing_messages": [],
+    "complete": true
+  },
+  "camera": {
+    "phase": "streaming",
+    "connected": true,
+    "age_s": 0.278,
+    "fps": 4.0,
+    "attempts": 376,
+    "connections": 4,
+    "refreshes": 2,
+    "last_connected": 1794459480.387569,
+    "last_frame": 1794459512.7026136,
+    "error": null,
+    "last_error": "RuntimeError: [tcp @ 0xaaaac45eb800] Connection to tcp://192.168.144.135:554?timeout=5000000 failed: No route to host\ncamera: No route to host",
+    "control_error": null,
+    "recovery_failures": 0,
+    "recovery_retry_in_s": 0,
+    "power_cycle_required": false,
+    "control": {
+      "connected": false,
+      "phase": "stopped",
+      "app_status": null,
+      "sessions": 5,
+      "heartbeats": 0,
+      "status_queries": 0,
+      "last_reply": null,
+      "error": "TimeoutError: timed out",
+      "notifications": 4,
+      "hold_requests": 0,
+      "last_notification": {
+        "msg_id": 7,
+        "type": "CAMERA_VF_START_END"
+      },
+      "configured": true,
+      "configuration": {
+        "camera_mode": "normal_record",
+        "EIS": "off",
+        "video_resolution": "1080P 30fps",
+        "SecStream_resolution": "1080P",
+        "SecStream_BitRate": "2M"
+      },
+      "keepalive_interval_s": 8
+    }
+  },
+  "latest": {
+    "SCALED_IMU": {
+      "seq": 76755,
+      "received_ns": 1794459512930858103,
+      "payload_length": 24,
+      "message": {
+        "mavpackettype": "SCALED_IMU",
+        "time_boot_ms": 4786590,
+        "xacc": -182,
+        "yacc": 107,
+        "zacc": -974,
+        "xgyro": 0,
+        "ygyro": 0,
+        "zgyro": 0,
+        "xmag": 118,
+        "ymag": -176,
+        "zmag": 269,
+        "temperature": 5350
+      }
+    },
+    "ATTITUDE": {
+      "seq": 76754,
+      "received_ns": 1794459512930698003,
+      "payload_length": 28,
+      "message": {
+        "mavpackettype": "ATTITUDE",
+        "time_boot_ms": 4786590,
+        "roll": -0.10940975695848465,
+        "pitch": -0.1836479753255844,
+        "yaw": 1.1584080457687378,
+        "rollspeed": 0.00044089797302149236,
+        "pitchspeed": -0.0007826468208804727,
+        "yawspeed": -0.0003623338707257062
+      }
+    },
+    "GLOBAL_POSITION_INT": {
+      "seq": 76751,
+      "received_ns": 1794459512929861918,
+      "payload_length": 28,
+      "message": {
+        "mavpackettype": "GLOBAL_POSITION_INT",
+        "time_boot_ms": 4786590,
+        "lat": 0,
+        "lon": 0,
+        "alt": 120,
+        "relative_alt": 10842,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "hdg": 6637
+      }
+    },
+    "SCALED_PRESSURE": {
+      "seq": 76752,
+      "received_ns": 1794459512930378379,
+      "payload_length": 14,
+      "message": {
+        "mavpackettype": "SCALED_PRESSURE",
+        "time_boot_ms": 4786590,
+        "press_abs": 1012.7474975585938,
+        "press_diff": 0.0,
+        "temperature": 4982,
+        "temperature_press_diff": 0
+      }
+    },
+    "GPS_RAW_INT": {
+      "seq": 76753,
+      "received_ns": 1794459512930551471,
+      "payload_length": 29,
+      "message": {
+        "mavpackettype": "GPS_RAW_INT",
+        "time_usec": 0,
+        "fix_type": 1,
+        "lat": 0,
+        "lon": 0,
+        "alt": 0,
+        "eph": 0,
+        "epv": 0,
+        "vel": 0,
+        "cog": 0,
+        "satellites_visible": 0,
+        "alt_ellipsoid": 0,
+        "h_acc": 0,
+        "v_acc": 0,
+        "vel_acc": 0,
+        "hdg_acc": 0,
+        "yaw": 0
+      }
+    },
+    "SYS_STATUS": {
+      "seq": 76748,
+      "received_ns": 1794459512817997352,
+      "payload_length": 17,
+      "message": {
+        "mavpackettype": "SYS_STATUS",
+        "onboard_control_sensors_present": 1399979055,
+        "onboard_control_sensors_enabled": 1382153263,
+        "onboard_control_sensors_health": 1198652463,
+        "load": 234,
+        "voltage_battery": 22000,
+        "current_battery": 40,
+        "battery_remaining": 0,
+        "drop_rate_comm": 0,
+        "errors_comm": 0,
+        "errors_count1": 0,
+        "errors_count2": 0,
+        "errors_count3": 0,
+        "errors_count4": 0
+      }
+    },
+    "HEARTBEAT": {
+      "seq": 76744,
+      "received_ns": 1794459512808964971,
+      "payload_length": 9,
+      "message": {
+        "mavpackettype": "HEARTBEAT",
+        "type": 2,
+        "autopilot": 3,
+        "base_mode": 89,
+        "custom_mode": 5,
+        "system_status": 3,
+        "mavlink_version": 3
+      }
+    }
+  }
+}

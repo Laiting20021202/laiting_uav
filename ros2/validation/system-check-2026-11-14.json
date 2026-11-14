@@ -1,0 +1,425 @@
+{
+  "checked_at": "2026-11-14T14:02:59.604585+08:00",
+  "scope": "Read-only pre-upload checks. No hardware restart, recording, reboot or external receiver validation performed.",
+  "image_id": "sha256:70b2ea0f8df792a4e844c5da31a0a23114bf55be5b387c79501553da178536a3",
+  "compose_validation": {
+    "exit_code": 0,
+    "output": ""
+  },
+  "services": {
+    "uav-v2": "active",
+    "uav-ros2": "active",
+    "uav-cloudflared": "active"
+  },
+  "autostart": {
+    "uav-v2": "enabled",
+    "uav-ros2": "enabled",
+    "uav-cloudflared": "enabled"
+  },
+  "docker_daemon": "active",
+  "docker_autostart": "enabled",
+  "linger": "Linger=yes",
+  "container_health": "healthy",
+  "bridge_connected": true,
+  "camera": {
+    "connected": false,
+    "error": "RuntimeError: [tcp @ 0xaaaafb76b800] Connection to tcp://192.168.144.135:554?timeout=5000000 failed: Connection timed out\ncamera: Connection timed out"
+  },
+  "flight": {
+    "connected": false,
+    "error": "FileNotFoundError: Flight-controller USB is not present; waiting for reconnect"
+  },
+  "topics": [
+    {
+      "name": "/uav/camera/image_raw",
+      "type": "sensor_msgs/msg/Image",
+      "state": "disconnected",
+      "hz": 0,
+      "count": 0,
+      "age_s": null,
+      "content_valid": false
+    },
+    {
+      "name": "/uav/imu/data_raw",
+      "type": "sensor_msgs/msg/Imu",
+      "state": "disconnected",
+      "hz": 0,
+      "count": 0,
+      "age_s": null,
+      "content_valid": false
+    },
+    {
+      "name": "/uav/attitude",
+      "type": "geometry_msgs/msg/QuaternionStamped",
+      "state": "disconnected",
+      "hz": 0,
+      "count": 0,
+      "age_s": null,
+      "content_valid": false
+    },
+    {
+      "name": "/uav/gps/fix",
+      "type": "sensor_msgs/msg/NavSatFix",
+      "state": "disconnected",
+      "hz": 0,
+      "count": 0,
+      "age_s": null,
+      "content_valid": false
+    },
+    {
+      "name": "/uav/altitude/relative_home",
+      "type": "std_msgs/msg/Float64",
+      "state": "disconnected",
+      "hz": 0,
+      "count": 0,
+      "age_s": null,
+      "content_valid": false
+    },
+    {
+      "name": "/uav/altitude/msl",
+      "type": "std_msgs/msg/Float64",
+      "state": "disconnected",
+      "hz": 0,
+      "count": 0,
+      "age_s": null,
+      "content_valid": false
+    },
+    {
+      "name": "/uav/velocity/enu",
+      "type": "geometry_msgs/msg/Vector3Stamped",
+      "state": "disconnected",
+      "hz": 0,
+      "count": 0,
+      "age_s": null,
+      "content_valid": false
+    },
+    {
+      "name": "/uav/battery/state",
+      "type": "sensor_msgs/msg/BatteryState",
+      "state": "disconnected",
+      "hz": 0,
+      "count": 0,
+      "age_s": null,
+      "content_valid": false
+    },
+    {
+      "name": "/uav/imu/mag",
+      "type": "sensor_msgs/msg/MagneticField",
+      "state": "disconnected",
+      "hz": 0,
+      "count": 0,
+      "age_s": null,
+      "content_valid": false
+    },
+    {
+      "name": "/uav/barometer/pressure",
+      "type": "sensor_msgs/msg/FluidPressure",
+      "state": "disconnected",
+      "hz": 0,
+      "count": 0,
+      "age_s": null,
+      "content_valid": false
+    }
+  ],
+  "recording_state": "idle",
+  "recording_history_count": 4,
+  "disk": {
+    "free_mb": 14544.83984375,
+    "total_mb": 237814.3984375,
+    "reserve_mb": 2048
+  },
+  "probes": {
+    "container": {
+      "hostname": "ubuntu",
+      "domain_id": "42",
+      "rmw": "rmw_fastrtps_cpp",
+      "qos": "image reliable; other sensors best_effort; volatile",
+      "started_at": 1794636038.1793857,
+      "stopped_at": 1794636048.2731438,
+      "topics": {
+        "/uav/camera/image_raw": {
+          "type": "sensor_msgs/msg/Image",
+          "count": 0,
+          "valid_count": 0,
+          "invalid_count": 0,
+          "first_stamp_ns": null,
+          "last_stamp_ns": null,
+          "distinct_stamps": 0,
+          "last_sample": null,
+          "reasons": {},
+          "hz": 0,
+          "continuous": false
+        },
+        "/uav/imu/data_raw": {
+          "type": "sensor_msgs/msg/Imu",
+          "count": 0,
+          "valid_count": 0,
+          "invalid_count": 0,
+          "first_stamp_ns": null,
+          "last_stamp_ns": null,
+          "distinct_stamps": 0,
+          "last_sample": null,
+          "reasons": {},
+          "hz": 0,
+          "continuous": false
+        },
+        "/uav/attitude": {
+          "type": "geometry_msgs/msg/QuaternionStamped",
+          "count": 0,
+          "valid_count": 0,
+          "invalid_count": 0,
+          "first_stamp_ns": null,
+          "last_stamp_ns": null,
+          "distinct_stamps": 0,
+          "last_sample": null,
+          "reasons": {},
+          "hz": 0,
+          "continuous": false
+        },
+        "/uav/gps/fix": {
+          "type": "sensor_msgs/msg/NavSatFix",
+          "count": 0,
+          "valid_count": 0,
+          "invalid_count": 0,
+          "first_stamp_ns": null,
+          "last_stamp_ns": null,
+          "distinct_stamps": 0,
+          "last_sample": null,
+          "reasons": {},
+          "hz": 0,
+          "continuous": false
+        },
+        "/uav/altitude/relative_home": {
+          "type": "std_msgs/msg/Float64",
+          "count": 0,
+          "valid_count": 0,
+          "invalid_count": 0,
+          "first_stamp_ns": null,
+          "last_stamp_ns": null,
+          "distinct_stamps": 0,
+          "last_sample": null,
+          "reasons": {},
+          "hz": 0,
+          "continuous": false
+        },
+        "/uav/altitude/msl": {
+          "type": "std_msgs/msg/Float64",
+          "count": 0,
+          "valid_count": 0,
+          "invalid_count": 0,
+          "first_stamp_ns": null,
+          "last_stamp_ns": null,
+          "distinct_stamps": 0,
+          "last_sample": null,
+          "reasons": {},
+          "hz": 0,
+          "continuous": false
+        },
+        "/uav/velocity/enu": {
+          "type": "geometry_msgs/msg/Vector3Stamped",
+          "count": 0,
+          "valid_count": 0,
+          "invalid_count": 0,
+          "first_stamp_ns": null,
+          "last_stamp_ns": null,
+          "distinct_stamps": 0,
+          "last_sample": null,
+          "reasons": {},
+          "hz": 0,
+          "continuous": false
+        },
+        "/uav/battery/state": {
+          "type": "sensor_msgs/msg/BatteryState",
+          "count": 0,
+          "valid_count": 0,
+          "invalid_count": 0,
+          "first_stamp_ns": null,
+          "last_stamp_ns": null,
+          "distinct_stamps": 0,
+          "last_sample": null,
+          "reasons": {},
+          "hz": 0,
+          "continuous": false
+        },
+        "/uav/imu/mag": {
+          "type": "sensor_msgs/msg/MagneticField",
+          "count": 0,
+          "valid_count": 0,
+          "invalid_count": 0,
+          "first_stamp_ns": null,
+          "last_stamp_ns": null,
+          "distinct_stamps": 0,
+          "last_sample": null,
+          "reasons": {},
+          "hz": 0,
+          "continuous": false
+        },
+        "/uav/barometer/pressure": {
+          "type": "sensor_msgs/msg/FluidPressure",
+          "count": 0,
+          "valid_count": 0,
+          "invalid_count": 0,
+          "first_stamp_ns": null,
+          "last_stamp_ns": null,
+          "distinct_stamps": 0,
+          "last_sample": null,
+          "reasons": {},
+          "hz": 0,
+          "continuous": false
+        }
+      }
+    },
+    "host": {
+      "hostname": "ubuntu",
+      "domain_id": "42",
+      "rmw": "rmw_fastrtps_cpp",
+      "qos": "image reliable; other sensors best_effort; volatile",
+      "started_at": 1794636039.054531,
+      "stopped_at": 1794636049.081234,
+      "topics": {
+        "/uav/camera/image_raw": {
+          "type": "sensor_msgs/msg/Image",
+          "count": 0,
+          "valid_count": 0,
+          "invalid_count": 0,
+          "first_stamp_ns": null,
+          "last_stamp_ns": null,
+          "distinct_stamps": 0,
+          "last_sample": null,
+          "reasons": {},
+          "hz": 0,
+          "continuous": false
+        },
+        "/uav/imu/data_raw": {
+          "type": "sensor_msgs/msg/Imu",
+          "count": 0,
+          "valid_count": 0,
+          "invalid_count": 0,
+          "first_stamp_ns": null,
+          "last_stamp_ns": null,
+          "distinct_stamps": 0,
+          "last_sample": null,
+          "reasons": {},
+          "hz": 0,
+          "continuous": false
+        },
+        "/uav/attitude": {
+          "type": "geometry_msgs/msg/QuaternionStamped",
+          "count": 0,
+          "valid_count": 0,
+          "invalid_count": 0,
+          "first_stamp_ns": null,
+          "last_stamp_ns": null,
+          "distinct_stamps": 0,
+          "last_sample": null,
+          "reasons": {},
+          "hz": 0,
+          "continuous": false
+        },
+        "/uav/gps/fix": {
+          "type": "sensor_msgs/msg/NavSatFix",
+          "count": 0,
+          "valid_count": 0,
+          "invalid_count": 0,
+          "first_stamp_ns": null,
+          "last_stamp_ns": null,
+          "distinct_stamps": 0,
+          "last_sample": null,
+          "reasons": {},
+          "hz": 0,
+          "continuous": false
+        },
+        "/uav/altitude/relative_home": {
+          "type": "std_msgs/msg/Float64",
+          "count": 0,
+          "valid_count": 0,
+          "invalid_count": 0,
+          "first_stamp_ns": null,
+          "last_stamp_ns": null,
+          "distinct_stamps": 0,
+          "last_sample": null,
+          "reasons": {},
+          "hz": 0,
+          "continuous": false
+        },
+        "/uav/altitude/msl": {
+          "type": "std_msgs/msg/Float64",
+          "count": 0,
+          "valid_count": 0,
+          "invalid_count": 0,
+          "first_stamp_ns": null,
+          "last_stamp_ns": null,
+          "distinct_stamps": 0,
+          "last_sample": null,
+          "reasons": {},
+          "hz": 0,
+          "continuous": false
+        },
+        "/uav/velocity/enu": {
+          "type": "geometry_msgs/msg/Vector3Stamped",
+          "count": 0,
+          "valid_count": 0,
+          "invalid_count": 0,
+          "first_stamp_ns": null,
+          "last_stamp_ns": null,
+          "distinct_stamps": 0,
+          "last_sample": null,
+          "reasons": {},
+          "hz": 0,
+          "continuous": false
+        },
+        "/uav/battery/state": {
+          "type": "sensor_msgs/msg/BatteryState",
+          "count": 0,
+          "valid_count": 0,
+          "invalid_count": 0,
+          "first_stamp_ns": null,
+          "last_stamp_ns": null,
+          "distinct_stamps": 0,
+          "last_sample": null,
+          "reasons": {},
+          "hz": 0,
+          "continuous": false
+        },
+        "/uav/imu/mag": {
+          "type": "sensor_msgs/msg/MagneticField",
+          "count": 0,
+          "valid_count": 0,
+          "invalid_count": 0,
+          "first_stamp_ns": null,
+          "last_stamp_ns": null,
+          "distinct_stamps": 0,
+          "last_sample": null,
+          "reasons": {},
+          "hz": 0,
+          "continuous": false
+        },
+        "/uav/barometer/pressure": {
+          "type": "sensor_msgs/msg/FluidPressure",
+          "count": 0,
+          "valid_count": 0,
+          "invalid_count": 0,
+          "first_stamp_ns": null,
+          "last_stamp_ns": null,
+          "distinct_stamps": 0,
+          "last_sample": null,
+          "reasons": {},
+          "hz": 0,
+          "continuous": false
+        }
+      }
+    }
+  },
+  "acceptance": "NOT PASSED: both hardware sources disconnected and all ten topics received zero new messages in container and host 10-second subscriptions.",
+  "not_retested": [
+    "physical external DDS receiver",
+    "complete host reboot",
+    "new end-to-end recording and replay",
+    "physical camera/AP6 reconnect"
+  ],
+  "regression_tests": {
+    "command": "source /opt/ros/humble/setup.bash; PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 .venv/bin/python -m pytest -q tests/test_ros2_gateway.py tests/test_telemetry.py tests/test_runtime_models.py tests/test_runtime_pacing.py tests/test_security.py tests/test_auth_restart.py",
+    "result": "81 passed, 1 warning in 27.78s",
+    "warning": "Existing Starlette TestClient deprecation warning"
+  }
+}

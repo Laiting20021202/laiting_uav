@@ -4,6 +4,7 @@ import csv
 import hmac
 import io
 import logging
+import os
 import time
 from contextlib import asynccontextmanager
 from pathlib import Path
@@ -139,6 +140,46 @@ def create_app(config, data_dir=None, users_path=None, start_workers=True):
     @app.get("/healthz")
     def health():
         return {"status": "ok"}
+
+    @app.get('/ros2')
+    def ros_index(request: Request):
+        if not auth.get(request.cookies.get(cookie_name)):
+            return RedirectResponse('/login',303)
+        return RedirectResponse('/ros2/',307)
+
+    def ros_forward(request, path, method):
+        session(request, csrf=method == 'POST')
+        from .ros_proxy import UnixHTTP
+        conn = UnixHTTP(os.getenv('UAV_ROS_CONTROL', str(ROOT/'data/ros2/control/http.sock')))
+        try:
+            conn.request(method,'/'+path)
+            upstream = conn.getresponse()
+        except OSError as exc:
+            conn.close()
+            raise HTTPException(503,'ROS Docker service unavailable; check uav-ros2.service') from exc
+        headers = {k:v for k,v in upstream.getheaders()
+                   if k.lower() in ('content-type','content-length','content-disposition')}
+        def chunks():
+            try:
+                while chunk := upstream.read(256*1024):
+                    yield chunk
+            finally:
+                conn.close()
+        return StreamingResponse(chunks(),status_code=upstream.status,headers=headers)
+
+    @app.get('/ros2/{path:path}')
+    def ros_get(request: Request, path: str):
+        if path == '' and not auth.get(request.cookies.get(cookie_name)):
+            return RedirectResponse('/login',303)
+        if path not in ('','app.js','style.css','api/status','api/preview') and not path.startswith('api/download/'):
+            raise HTTPException(404)
+        return ros_forward(request,path,'GET')
+
+    @app.post('/ros2/api/{action}')
+    def ros_post(request: Request, action: str):
+        if action not in ('start','stop'):
+            raise HTTPException(404)
+        return ros_forward(request,'api/'+action,'POST')
 
     @app.get("/")
     def index(request: Request):

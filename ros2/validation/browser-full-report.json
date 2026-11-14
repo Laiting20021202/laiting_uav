@@ -1,0 +1,49 @@
+{
+  "base": "https://uav.laiting1202.com",
+  "started_at": 1794458868.014032,
+  "checks": {
+    "original_login": true,
+    "original_model": "president-cup-v5",
+    "original_inference_ms": 450.7,
+    "topic_counters_advance": {
+      "/uav/camera/image_raw": true,
+      "/uav/imu/data_raw": true,
+      "/uav/attitude": true,
+      "/uav/gps/fix": true,
+      "/uav/altitude/relative_home": true,
+      "/uav/altitude/msl": true,
+      "/uav/velocity/enu": true,
+      "/uav/battery/state": true,
+      "/uav/imu/mag": true,
+      "/uav/barometer/pressure": true
+    },
+    "states": {
+      "/uav/camera/image_raw": "normal",
+      "/uav/imu/data_raw": "normal",
+      "/uav/attitude": "normal",
+      "/uav/gps/fix": "invalid",
+      "/uav/altitude/relative_home": "normal",
+      "/uav/altitude/msl": "normal",
+      "/uav/velocity/enu": "normal",
+      "/uav/battery/state": "normal",
+      "/uav/imu/mag": "normal",
+      "/uav/barometer/pressure": "normal"
+    },
+    "bridge_outage_detected": true,
+    "bridge_reconnect": true,
+    "browser_stale_values_marked": true,
+    "duplicate_start_rejected": true,
+    "duplicate_stop_rejected": true,
+    "recording_finalized": true,
+    "recording_integrity": "partial",
+    "selected_zip_download": 19375654,
+    "download_sha256_matches": true,
+    "select_older_archive": "20261112T044129Z_58fdd9b7ff",
+    "mobile_layout": true,
+    "lan_gui_authenticated": true
+  },
+  "errors": [],
+  "recording_name": "20261112T044823Z_5e315035c0",
+  "temporary_test_user_removed": true,
+  "stopped_at": 1794459000.166683
+}

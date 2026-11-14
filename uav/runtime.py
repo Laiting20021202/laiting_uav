@@ -3,6 +3,7 @@ import copy
 import json
 import logging
 import math
+import os
 import shutil
 import threading
 import time
@@ -49,6 +50,18 @@ class Runtime:
         self.thread = None
 
     def start(self):
+        self.ros_bridge = None
+        bridge_path = os.environ.get('UAV_ROS_BRIDGE')
+        if bridge_path and not self.demo:
+            from .ros_bridge import SourceBridge
+            # Only interval requests; no flight commands or second serial reader.
+            self.telemetry.message_rates.update(self.config.get('ros_message_rates', {
+                'SCALED_IMU': 20, 'SCALED_PRESSURE': 5}))
+            try:
+                self.ros_bridge = SourceBridge(self, bridge_path)
+                self.ros_bridge.start()
+            except Exception:
+                log.exception('ROS source tap unavailable; existing service continues')
         if not self.demo:
             self.telemetry.start()
             self.camera.start()
@@ -57,6 +70,8 @@ class Runtime:
 
     def stop(self):
         self.stop_event.set()
+        if getattr(self, 'ros_bridge', None):
+            self.ros_bridge.stop()
         self.camera.stop()
         self.telemetry.stop()
         if self.thread:

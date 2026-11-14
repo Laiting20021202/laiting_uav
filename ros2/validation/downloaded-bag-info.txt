@@ -1,0 +1,19 @@
+
+Files:             bag_0.db3
+Bag size:          202.1 MiB
+Storage id:        sqlite3
+Duration:          11.062375349s
+Start:             Nov 12 2026 12:48:25.925931938 (1794458905.925931938)
+End:               Nov 12 2026 12:48:36.988307287 (1794458916.988307287)
+Messages:          1165
+Topic information: Topic: /uav/altitude/msl | Type: std_msgs/msg/Float64 | Count: 110 | Serialization Format: cdr
+                   Topic: /uav/altitude/relative_home | Type: std_msgs/msg/Float64 | Count: 110 | Serialization Format: cdr
+                   Topic: /uav/attitude | Type: geometry_msgs/msg/QuaternionStamped | Count: 221 | Serialization Format: cdr
+                   Topic: /uav/barometer/pressure | Type: sensor_msgs/msg/FluidPressure | Count: 56 | Serialization Format: cdr
+                   Topic: /uav/battery/state | Type: sensor_msgs/msg/BatteryState | Count: 23 | Serialization Format: cdr
+                   Topic: /uav/camera/image_raw | Type: sensor_msgs/msg/Image | Count: 34 | Serialization Format: cdr
+                   Topic: /uav/gps/fix | Type: sensor_msgs/msg/NavSatFix | Count: 56 | Serialization Format: cdr
+                   Topic: /uav/imu/data_raw | Type: sensor_msgs/msg/Imu | Count: 222 | Serialization Format: cdr
+                   Topic: /uav/imu/mag | Type: sensor_msgs/msg/MagneticField | Count: 222 | Serialization Format: cdr
+                   Topic: /uav/velocity/enu | Type: geometry_msgs/msg/Vector3Stamped | Count: 111 | Serialization Format: cdr
+

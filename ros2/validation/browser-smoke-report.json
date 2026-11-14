@@ -1,0 +1,38 @@
+{
+  "base": "https://uav.laiting1202.com",
+  "started_at": 1794459140.7171862,
+  "checks": {
+    "original_login": true,
+    "original_model": "president-cup-v5",
+    "original_inference_ms": 260.4,
+    "topic_counters_advance": {
+      "/uav/camera/image_raw": true,
+      "/uav/imu/data_raw": true,
+      "/uav/attitude": true,
+      "/uav/gps/fix": true,
+      "/uav/altitude/relative_home": true,
+      "/uav/altitude/msl": true,
+      "/uav/velocity/enu": true,
+      "/uav/battery/state": true,
+      "/uav/imu/mag": true,
+      "/uav/barometer/pressure": true
+    },
+    "states": {
+      "/uav/camera/image_raw": "normal",
+      "/uav/imu/data_raw": "normal",
+      "/uav/attitude": "normal",
+      "/uav/gps/fix": "invalid",
+      "/uav/altitude/relative_home": "normal",
+      "/uav/altitude/msl": "normal",
+      "/uav/velocity/enu": "normal",
+      "/uav/battery/state": "normal",
+      "/uav/imu/mag": "normal",
+      "/uav/barometer/pressure": "normal"
+    },
+    "preflight_visible": true,
+    "preview_visible": true
+  },
+  "errors": [],
+  "temporary_test_user_removed": true,
+  "stopped_at": 1794459168.4163816
+}

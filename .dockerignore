@@ -1,0 +1,10 @@
+**
+!ros2/
+!ros2/**
+!uav/
+!uav/__init__.py
+!uav/auth.py
+!uav/config.py
+ros2/**/__pycache__/
+ros2/.env
+ros2/.env.*

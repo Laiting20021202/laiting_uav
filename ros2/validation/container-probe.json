@@ -1,0 +1,196 @@
+{
+  "hostname": "ubuntu",
+  "domain_id": "42",
+  "rmw": "rmw_fastrtps_cpp",
+  "qos": "image reliable; other sensors best_effort; volatile",
+  "started_at": 1794459514.021698,
+  "stopped_at": 1794459534.0405266,
+  "topics": {
+    "/uav/camera/image_raw": {
+      "type": "sensor_msgs/msg/Image",
+      "count": 61,
+      "valid_count": 61,
+      "invalid_count": 0,
+      "first_stamp_ns": 1794459514436850944,
+      "last_stamp_ns": 1794459533440178944,
+      "distinct_stamps": 61,
+      "last_sample": {
+        "width": 1920,
+        "height": 1080,
+        "encoding": "bgr8",
+        "bytes": 6220800
+      },
+      "reasons": {},
+      "hz": 3.1680423581811428,
+      "continuous": true
+    },
+    "/uav/imu/data_raw": {
+      "type": "sensor_msgs/msg/Imu",
+      "count": 382,
+      "valid_count": 382,
+      "invalid_count": 0,
+      "first_stamp_ns": 1794459514607576480,
+      "last_stamp_ns": 1794459533826384360,
+      "distinct_stamps": 382,
+      "last_sample": {
+        "acceleration_m_s2": [
+          -1.7848103,
+          -1.04931155,
+          9.56148375
+        ],
+        "angular_velocity_rad_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "orientation_available": false
+      },
+      "reasons": {},
+      "hz": 19.71413674043112,
+      "continuous": true
+    },
+    "/uav/attitude": {
+      "type": "geometry_msgs/msg/QuaternionStamped",
+      "count": 381,
+      "valid_count": 381,
+      "invalid_count": 0,
+      "first_stamp_ns": 1794459514607307769,
+      "last_stamp_ns": 1794459533762396523,
+      "distinct_stamps": 381,
+      "last_sample": {
+        "quaternion_xyzw": [
+          0.07199332460356933,
+          -0.07848492536602109,
+          -0.20830304412912332,
+          -0.9722483836496494
+        ],
+        "frame": "map_enu"
+      },
+      "reasons": {},
+      "hz": 19.822576975230362,
+      "continuous": true
+    },
+    "/uav/gps/fix": {
+      "type": "sensor_msgs/msg/NavSatFix",
+      "count": 95,
+      "valid_count": 0,
+      "invalid_count": 95,
+      "first_stamp_ns": 1794459514717084443,
+      "last_stamp_ns": 1794459533726927848,
+      "distinct_stamps": 95,
+      "last_sample": {
+        "latitude": null,
+        "longitude": null,
+        "ellipsoid_m": null,
+        "fix_status": -1
+      },
+      "reasons": {
+        "no valid 3D GPS fix or coordinates; WGS84 ellipsoid height unavailable (MSL is not substituted)": 95
+      },
+      "hz": 4.9430032478602035,
+      "continuous": true
+    },
+    "/uav/altitude/relative_home": {
+      "type": "std_msgs/msg/Float64",
+      "count": 191,
+      "valid_count": 191,
+      "invalid_count": 0,
+      "first_stamp_ns": null,
+      "last_stamp_ns": null,
+      "distinct_stamps": 0,
+      "last_sample": {
+        "m": 11.037
+      },
+      "reasons": {},
+      "hz": 9.914597023194851,
+      "continuous": true
+    },
+    "/uav/altitude/msl": {
+      "type": "std_msgs/msg/Float64",
+      "count": 191,
+      "valid_count": 191,
+      "invalid_count": 0,
+      "first_stamp_ns": null,
+      "last_stamp_ns": null,
+      "distinct_stamps": 0,
+      "last_sample": {
+        "m": 0.12
+      },
+      "reasons": {},
+      "hz": 9.914621476482552,
+      "continuous": true
+    },
+    "/uav/velocity/enu": {
+      "type": "geometry_msgs/msg/Vector3Stamped",
+      "count": 191,
+      "valid_count": 191,
+      "invalid_count": 0,
+      "first_stamp_ns": 1794459514615261180,
+      "last_stamp_ns": 1794459533726237815,
+      "distinct_stamps": 191,
+      "last_sample": {
+        "east_north_up_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reasons": {},
+      "hz": 9.914632552804056,
+      "continuous": true
+    },
+    "/uav/battery/state": {
+      "type": "sensor_msgs/msg/BatteryState",
+      "count": 38,
+      "valid_count": 38,
+      "invalid_count": 0,
+      "first_stamp_ns": 1794459514812739684,
+      "last_stamp_ns": 1794459533315393209,
+      "distinct_stamps": 38,
+      "last_sample": {
+        "voltage_v": 22.0,
+        "current_a": -0.4000000059604645,
+        "fraction": 0.0,
+        "temperature_c": null,
+        "present": true
+      },
+      "reasons": {},
+      "hz": 1.9986593933779422,
+      "continuous": true
+    },
+    "/uav/imu/mag": {
+      "type": "sensor_msgs/msg/MagneticField",
+      "count": 381,
+      "valid_count": 381,
+      "invalid_count": 0,
+      "first_stamp_ns": 1794459514607576480,
+      "last_stamp_ns": 1794459533762655442,
+      "distinct_stamps": 381,
+      "last_sample": {
+        "tesla": [
+          1.19e-05,
+          1.78e-05,
+          -2.74e-05
+        ]
+      },
+      "reasons": {},
+      "hz": 19.826128337617277,
+      "continuous": true
+    },
+    "/uav/barometer/pressure": {
+      "type": "sensor_msgs/msg/FluidPressure",
+      "count": 95,
+      "valid_count": 95,
+      "invalid_count": 0,
+      "first_stamp_ns": 1794459514716910103,
+      "last_stamp_ns": 1794459533726757828,
+      "distinct_stamps": 95,
+      "last_sample": {
+        "pa": 101272.52807617188
+      },
+      "reasons": {},
+      "hz": 4.943104778546387,
+      "continuous": true
+    }
+  }
+}

@@ -1,0 +1,50 @@
+/uav/camera/image_raw:
+  reliability: reliable
+  durability: volatile
+  history: keep_last
+  depth: 10
+/uav/imu/data_raw:
+  reliability: best_effort
+  durability: volatile
+  history: keep_last
+  depth: 10
+/uav/attitude:
+  reliability: best_effort
+  durability: volatile
+  history: keep_last
+  depth: 10
+/uav/gps/fix:
+  reliability: best_effort
+  durability: volatile
+  history: keep_last
+  depth: 10
+/uav/altitude/relative_home:
+  reliability: best_effort
+  durability: volatile
+  history: keep_last
+  depth: 10
+/uav/altitude/msl:
+  reliability: best_effort
+  durability: volatile
+  history: keep_last
+  depth: 10
+/uav/velocity/enu:
+  reliability: best_effort
+  durability: volatile
+  history: keep_last
+  depth: 10
+/uav/battery/state:
+  reliability: best_effort
+  durability: volatile
+  history: keep_last
+  depth: 10
+/uav/imu/mag:
+  reliability: best_effort
+  durability: volatile
+  history: keep_last
+  depth: 10
+/uav/barometer/pressure:
+  reliability: best_effort
+  durability: volatile
+  history: keep_last
+  depth: 10

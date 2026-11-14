@@ -1,0 +1,22 @@
+{
+  "recording": "20261112T044555Z_737c60c76c",
+  "checks": {
+    "duration_before": "未知（異常中斷）",
+    "duration_after": "未知（異常中斷）",
+    "failed_elapsed_null": true,
+    "failed_download_hidden": true,
+    "unpacked_size_not_shown_as_zero": true,
+    "unverified_topic_count_not_shown_as_zero": true,
+    "completed_recordings_keep_known_duration": true,
+    "formatting": {
+      "active": "5.00 s",
+      "zero": "0.00 s",
+      "unknown": "未知（異常中斷）"
+    },
+    "current_state": "idle"
+  },
+  "errors": [],
+  "started_at": 1794631964.084365,
+  "stopped_at": 1794631981.1839209,
+  "temporary_test_user_removed": true
+}

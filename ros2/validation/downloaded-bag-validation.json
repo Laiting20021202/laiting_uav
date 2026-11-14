@@ -1,0 +1,176 @@
+{
+  "topics": {
+    "/uav/camera/image_raw": {
+      "type": "sensor_msgs/msg/Image",
+      "count": 34,
+      "valid_count": 34,
+      "invalid_count": 0,
+      "first_ns": 1794458906115884260,
+      "last_ns": 1794458916793882508,
+      "sample": {
+        "width": 1920,
+        "height": 1080,
+        "encoding": "bgr8",
+        "bytes": 6220800
+      },
+      "reasons": {}
+    },
+    "/uav/imu/data_raw": {
+      "type": "sensor_msgs/msg/Imu",
+      "count": 222,
+      "valid_count": 222,
+      "invalid_count": 0,
+      "first_ns": 1794458905926624822,
+      "last_ns": 1794458916988189396,
+      "sample": {
+        "acceleration_m_s2": [
+          -1.7848103,
+          -1.0395049,
+          9.58109705
+        ],
+        "angular_velocity_rad_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "orientation_available": false
+      },
+      "reasons": {}
+    },
+    "/uav/attitude": {
+      "type": "geometry_msgs/msg/QuaternionStamped",
+      "count": 221,
+      "valid_count": 221,
+      "invalid_count": 0,
+      "first_ns": 1794458905927033729,
+      "last_ns": 1794458916987925453,
+      "sample": {
+        "quaternion_xyzw": [
+          0.07168035801240008,
+          -0.0783934140514714,
+          -0.21117702686219947,
+          -0.9716587169547808
+        ],
+        "frame": "map_enu"
+      },
+      "reasons": {}
+    },
+    "/uav/gps/fix": {
+      "type": "sensor_msgs/msg/NavSatFix",
+      "count": 56,
+      "valid_count": 0,
+      "invalid_count": 56,
+      "first_ns": 1794458905974851867,
+      "last_ns": 1794458916987036116,
+      "sample": {
+        "latitude": null,
+        "longitude": null,
+        "ellipsoid_m": null,
+        "fix_status": -1
+      },
+      "reasons": {
+        "no valid 3D GPS fix or coordinates; WGS84 ellipsoid height unavailable (MSL is not substituted)": 56
+      }
+    },
+    "/uav/altitude/relative_home": {
+      "type": "std_msgs/msg/Float64",
+      "count": 110,
+      "valid_count": 110,
+      "invalid_count": 0,
+      "first_ns": 1794458905975216421,
+      "last_ns": 1794458916986381314,
+      "sample": {
+        "m": 9.542
+      },
+      "reasons": {}
+    },
+    "/uav/altitude/msl": {
+      "type": "std_msgs/msg/Float64",
+      "count": 110,
+      "valid_count": 110,
+      "invalid_count": 0,
+      "first_ns": 1794458905975333705,
+      "last_ns": 1794458916986439715,
+      "sample": {
+        "m": 0.12
+      },
+      "reasons": {}
+    },
+    "/uav/velocity/enu": {
+      "type": "geometry_msgs/msg/Vector3Stamped",
+      "count": 111,
+      "valid_count": 111,
+      "invalid_count": 0,
+      "first_ns": 1794458905925931938,
+      "last_ns": 1794458916986583271,
+      "sample": {
+        "east_north_up_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reasons": {}
+    },
+    "/uav/battery/state": {
+      "type": "sensor_msgs/msg/BatteryState",
+      "count": 23,
+      "valid_count": 23,
+      "invalid_count": 0,
+      "first_ns": 1794458905926870941,
+      "last_ns": 1794458916857208049,
+      "sample": {
+        "voltage_v": 22.100000381469727,
+        "current_a": -0.20000000298023224,
+        "fraction": 0.0,
+        "temperature_c": null,
+        "present": true
+      },
+      "reasons": {}
+    },
+    "/uav/imu/mag": {
+      "type": "sensor_msgs/msg/MagneticField",
+      "count": 222,
+      "valid_count": 222,
+      "invalid_count": 0,
+      "first_ns": 1794458905926468689,
+      "last_ns": 1794458916988307287,
+      "sample": {
+        "tesla": [
+          1.21e-05,
+          1.7899999999999998e-05,
+          -2.74e-05
+        ]
+      },
+      "reasons": {}
+    },
+    "/uav/barometer/pressure": {
+      "type": "sensor_msgs/msg/FluidPressure",
+      "count": 56,
+      "valid_count": 56,
+      "invalid_count": 0,
+      "first_ns": 1794458905974979807,
+      "last_ns": 1794458916986678762,
+      "sample": {
+        "pa": 101289.3310546875
+      },
+      "reasons": {}
+    }
+  },
+  "message_count": 1165,
+  "topic_count": 10,
+  "first_ns": 1794458905925931938,
+  "last_ns": 1794458916988307287,
+  "duration_s": 11.062375349,
+  "integrity": "partial",
+  "missing": [],
+  "invalid": [
+    "/uav/gps/fix"
+  ],
+  "checks": [
+    "sqlite_integrity",
+    "deserialize_every_message",
+    "content_validity",
+    "metadata_types_counts_time"
+  ]
+}

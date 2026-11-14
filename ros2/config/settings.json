@@ -1,0 +1,27 @@
+{
+  "source_socket": "/source/source.sock",
+  "data_dir": "/data",
+  "control_socket": "/control/http.sock",
+  "web_host": "0.0.0.0",
+  "web_port": 8090,
+  "min_free_mb": 2048,
+  "max_recording_gb": 4,
+  "max_recording_seconds": 1800,
+  "camera_poll_hz": 4,
+  "gps_ellipsoid_confirmed": false,
+  "imu_source": "SCALED_IMU",
+  "mag_source": "SCALED_IMU",
+  "pressure_source": "SCALED_PRESSURE",
+  "topics": {
+    "/uav/camera/image_raw": {"expected_hz": 4, "timeout_s": 3},
+    "/uav/imu/data_raw": {"expected_hz": 20, "timeout_s": 2},
+    "/uav/attitude": {"expected_hz": 20, "timeout_s": 2},
+    "/uav/gps/fix": {"expected_hz": 5, "timeout_s": 3},
+    "/uav/altitude/relative_home": {"expected_hz": 10, "timeout_s": 2},
+    "/uav/altitude/msl": {"expected_hz": 10, "timeout_s": 2},
+    "/uav/velocity/enu": {"expected_hz": 10, "timeout_s": 2},
+    "/uav/battery/state": {"expected_hz": 2, "timeout_s": 5},
+    "/uav/imu/mag": {"expected_hz": 20, "timeout_s": 2},
+    "/uav/barometer/pressure": {"expected_hz": 5, "timeout_s": 3}
+  }
+}

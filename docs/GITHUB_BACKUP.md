@@ -3,6 +3,11 @@
 備份日期：2026-11-12（Asia/Taipei）。
 儲存庫：https://github.com/Laiting20021202/laiting_uav
 
+2026-11-14 更新：加入目前已部署的 `ros2/` 程式、Docker／Compose、
+服務範本、唯讀橋接、測試與小型驗證報告。操作及手動啟動見
+[系統操作與故障排查](OPERATIONS.md)。Docker 映像本體與 bag／ZIP
+不包含在 Git 備份內；目前硬體在線狀態以最新檢查報告為準。
+
 這是目前系統的程式與設定版本，包含 `uav/`、`scripts/`、`tests/`、
 `kernel/`、文件、套件需求、`config/settings.json` 與模型 registry／訓練設定。
 本次備份不修改應用程式行為，也不重啟實機服務。

@@ -1,0 +1,17 @@
+{
+  "interrupted_recording": "20261112T044555Z_737c60c76c",
+  "interrupted_state": "failed",
+  "incomplete_download_http": 409,
+  "removed_and_recreated_container": true,
+  "preserved_ready_archives": [
+    "20261112T044129Z_58fdd9b7ff",
+    "20261112T043654Z_f2cc826317"
+  ],
+  "all_archive_hashes_unchanged": true,
+  "systemd_enabled": "enabled",
+  "docker_boot_enabled": "enabled",
+  "linger": "yes",
+  "original_service_active": "active",
+  "full_ubuntu_reboot_tested": false,
+  "completed_at": 1794458783.317833
+}

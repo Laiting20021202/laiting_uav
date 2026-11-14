@@ -1,0 +1,174 @@
+{
+  "/uav/camera/image_raw": {
+    "recorded_ns": 1794458906115884260,
+    "valid": true,
+    "reason": "",
+    "values": {
+      "width": 1920,
+      "height": 1080,
+      "encoding": "bgr8",
+      "bytes": 6220800
+    },
+    "header": {
+      "sec": 1794458905,
+      "nanosec": 991114240,
+      "frame_id": "camera_optical_frame"
+    },
+    "pixel_sha256": "0e4613688a2d639386d124ed954b63b3e6419bc8d250a92c413b533505d749f6"
+  },
+  "/uav/imu/data_raw": {
+    "recorded_ns": 1794458905926624822,
+    "valid": true,
+    "reason": "",
+    "values": {
+      "acceleration_m_s2": [
+        -1.7848103,
+        -1.0395049,
+        9.5712904
+      ],
+      "angular_velocity_rad_s": [
+        0.0,
+        -0.001,
+        0.001
+      ],
+      "orientation_available": false
+    },
+    "header": {
+      "sec": 1794458905,
+      "nanosec": 802311455,
+      "frame_id": "base_link"
+    },
+    "orientation_covariance": [
+      -1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orientation_xyzw": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "/uav/attitude": {
+    "recorded_ns": 1794458905927033729,
+    "valid": true,
+    "reason": "",
+    "values": {
+      "quaternion_xyzw": [
+        0.07181582315957982,
+        -0.0781070733554036,
+        -0.21339273448417484,
+        -0.9711875789491606
+      ],
+      "frame": "map_enu"
+    },
+    "header": {
+      "sec": 1794458905,
+      "nanosec": 802143387,
+      "frame_id": "map_enu"
+    }
+  },
+  "/uav/gps/fix": {
+    "recorded_ns": 1794458905974851867,
+    "valid": false,
+    "reason": "no valid 3D GPS fix or coordinates; WGS84 ellipsoid height unavailable (MSL is not substituted)",
+    "values": {
+      "latitude": null,
+      "longitude": null,
+      "ellipsoid_m": null,
+      "fix_status": -1
+    },
+    "header": {
+      "sec": 1794458905,
+      "nanosec": 902408720,
+      "frame_id": "gps_link"
+    }
+  },
+  "/uav/altitude/relative_home": {
+    "recorded_ns": 1794458905975216421,
+    "valid": true,
+    "reason": "",
+    "values": {
+      "m": 9.262
+    }
+  },
+  "/uav/altitude/msl": {
+    "recorded_ns": 1794458905975333705,
+    "valid": true,
+    "reason": "",
+    "values": {
+      "m": 0.12
+    }
+  },
+  "/uav/velocity/enu": {
+    "recorded_ns": 1794458905925931938,
+    "valid": true,
+    "reason": "",
+    "values": {
+      "east_north_up_m_s": [
+        0.0,
+        0.0,
+        -0.01
+      ]
+    },
+    "header": {
+      "sec": 1794458905,
+      "nanosec": 801723535,
+      "frame_id": "map_enu"
+    }
+  },
+  "/uav/battery/state": {
+    "recorded_ns": 1794458905926870941,
+    "valid": true,
+    "reason": "",
+    "values": {
+      "voltage_v": 22.100000381469727,
+      "current_a": -0.20000000298023224,
+      "fraction": 0.0,
+      "temperature_c": null,
+      "present": true
+    },
+    "header": {
+      "sec": 1794458905,
+      "nanosec": 802478084,
+      "frame_id": "base_link"
+    }
+  },
+  "/uav/imu/mag": {
+    "recorded_ns": 1794458905926468689,
+    "valid": true,
+    "reason": "",
+    "values": {
+      "tesla": [
+        1.2299999999999999e-05,
+        1.81e-05,
+        -2.73e-05
+      ]
+    },
+    "header": {
+      "sec": 1794458905,
+      "nanosec": 802311455,
+      "frame_id": "base_link"
+    }
+  },
+  "/uav/barometer/pressure": {
+    "recorded_ns": 1794458905974979807,
+    "valid": true,
+    "reason": "",
+    "values": {
+      "pa": 101292.47436523438
+    },
+    "header": {
+      "sec": 1794458905,
+      "nanosec": 902237643,
+      "frame_id": "barometer_link"
+    }
+  }
+}
